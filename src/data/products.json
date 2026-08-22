@@ -1,0 +1,2926 @@
+[
+  {
+    "id": "dell-24-inch-p2426e-100hz-usb-c-professional-ips-monitor",
+    "slug": "dell-24-inch-p2426e-100hz-usb-c-professional-ips-monitor",
+    "name": "24 inch P2426E 100Hz USB-C Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 24.1 inča, IPS panel i rezolucija 1.920 x 1.200 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.1 inča",
+      "Rezolucija: 1.920 x 1.200",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": true,
+    "supplier_sku": "MON03547",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km5221w-pro-wireless-us-tastatura-mis-bela",
+    "slug": "dell-km5221w-pro-wireless-us-tastatura-mis-bela",
+    "name": "KM5221W Pro Wireless US tastatura + miš bela",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Bela",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": true,
+    "supplier_sku": "TAS01120",
+    "auto_price": true
+  },
+  {
+    "id": "cooler-master-postolje-i-hladnjak-za-laptop-notepal-ergostand-iii-r9-n",
+    "slug": "cooler-master-postolje-i-hladnjak-za-laptop-notepal-ergostand-iii-r9-n",
+    "name": "Postolje i hladnjak za laptop, NotePal ERGOSTAND III (R9-NBS-E32K-GP), crno",
+    "category": "Laptop oprema",
+    "brand": "COOLER MASTER",
+    "short_desc": "Postolje sa hlađenjem za laptop — za duži rad za stolom i bolju ergonomiju.",
+    "specs": [
+      "Materijal: Metal, Plastika",
+      "Boja: Crna"
+    ],
+    "price_rsd": 6790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": true,
+    "supplier_sku": "NOT07569",
+    "auto_price": true
+  },
+  {
+    "id": "mediacom-smartpad-azimut4-4g-phone-sp1az46-10-5-inch-t606-octa-core-1-",
+    "slug": "mediacom-smartpad-azimut4-4g-phone-sp1az46-10-5-inch-t606-octa-core-1-",
+    "name": "Smartpad AZIMUT4 4G Phone SP1AZ46 10.5 inch T606 Octa Core 1.6GHz 6GB 128GB Android 13.0",
+    "category": "Tableti",
+    "brand": "MEDIACOM",
+    "short_desc": "Tablet od 10.5 inča i 128GB memorije, sa 4G — za teren, magacin i prezentacije.",
+    "specs": [
+      "Veličina ekrana: 10.51 inča",
+      "Operativni sistem: Android 13",
+      "Memorija 128GB"
+    ],
+    "price_rsd": 18990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": true,
+    "supplier_sku": "NOT24555",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-f140-rgb-duo-twin-pack-140mm-ventilator-beli-rf-d14df-w1",
+    "slug": "nzxt-f140-rgb-duo-twin-pack-140mm-ventilator-beli-rf-d14df-w1",
+    "name": "F140 RGB Duo Twin Pack 140mm ventilator beli (RF-D14DF-W1)",
+    "category": "Komponente",
+    "brand": "NZXT",
+    "short_desc": "Ventilator za kućište od 140 mm — za tiše i hladnije radne mašine.",
+    "specs": [
+      "Dimenzije: 140mm x 140mm x 25mm",
+      "Prečnik 140 mm"
+    ],
+    "price_rsd": 9990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": true,
+    "supplier_sku": "CAS02522",
+    "auto_price": true
+  },
+  {
+    "id": "dell-14-inch-p1425-usb-c-pro-plus-portable-monitor",
+    "slug": "dell-14-inch-p1425-usb-c-pro-plus-portable-monitor",
+    "name": "14 inch P1425 USB-C Pro Plus Portable monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 14 inča, IPS panel i rezolucija 1.920 x 1.200 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 14 inča",
+      "Rezolucija: 1.920 x 1.200",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 41990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03168",
+    "auto_price": true
+  },
+  {
+    "id": "dell-19-inch-p1917s-professional-ips-5-4-monitor",
+    "slug": "dell-19-inch-p1917s-professional-ips-5-4-monitor",
+    "name": "19 inch P1917S Professional IPS 5:4 monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 19 inča, IPS panel i rezolucija 1.280 x 1.024 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 19 inča",
+      "Rezolucija: 1.280 x 1.024",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 29990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON01223",
+    "auto_price": true
+  },
+  {
+    "id": "dell-21-5-inch-e2225hm-100hz-pro-monitor",
+    "slug": "dell-21-5-inch-e2225hm-100hz-pro-monitor",
+    "name": "21.5 inch E2225HM 100Hz Pro monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 21.5 inča, VA panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 21.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 13990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03203",
+    "auto_price": true
+  },
+  {
+    "id": "dell-21-5-inch-e2225hsm-100hz-pro-monitor",
+    "slug": "dell-21-5-inch-e2225hsm-100hz-pro-monitor",
+    "name": "21.5 inch E2225HSM 100Hz Pro monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 21.5 inča, VA panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 21.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 15990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03204",
+    "auto_price": true
+  },
+  {
+    "id": "dell-21-5-inch-p2225h-100hz-professional-ips-monitor",
+    "slug": "dell-21-5-inch-p2225h-100hz-professional-ips-monitor",
+    "name": "21.5 inch P2225H 100Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 21.5 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 21.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 19990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02994",
+    "auto_price": true
+  },
+  {
+    "id": "dell-21-5-inch-p2226h-100hz-professional-ips-monitor",
+    "slug": "dell-21-5-inch-p2226h-100hz-professional-ips-monitor",
+    "name": "21.5 inch P2226H 100Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 21.5 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 21.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 19990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03544",
+    "auto_price": true
+  },
+  {
+    "id": "dell-21-5-inch-se2225hm-100hz-monitor",
+    "slug": "dell-21-5-inch-se2225hm-100hz-monitor",
+    "name": "21.5 inch SE2225HM 100Hz monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 21.5 inča, VA panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 21.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 11990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03212",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-23-8-inch-e2425h-monitor",
+    "slug": "dell-oem-23-8-inch-e2425h-monitor",
+    "name": "23.8 inch E2425H monitor",
+    "category": "Monitori",
+    "brand": "DELL OEM",
+    "short_desc": "Monitor od 23.8 inča, VA panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 13990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03037",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-e2425hm-100hz-pro-ips-monitor",
+    "slug": "dell-23-8-inch-e2425hm-100hz-pro-ips-monitor",
+    "name": "23.8 inch E2425HM 100Hz Pro IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 15990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03205",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-e2425hsm-100hz-pro-ips-monitor",
+    "slug": "dell-23-8-inch-e2425hsm-100hz-pro-ips-monitor",
+    "name": "23.8 inch E2425HSM 100Hz Pro IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 17990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03206",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-e2426hb-120hz-video-konferencijski-ips-monitor",
+    "slug": "dell-23-8-inch-e2426hb-120hz-video-konferencijski-ips-monitor",
+    "name": "23.8 inch E2426HB 120Hz Video konferencijski IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 32990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03560",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2424ht-touch-usb-c-professional-ips-monitor",
+    "slug": "dell-23-8-inch-p2424ht-touch-usb-c-professional-ips-monitor",
+    "name": "23.8 inch P2424HT Touch USB-C Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Žično povezivanje"
+    ],
+    "price_rsd": 56990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02642",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2425d-qhd-100hz-pro-plus-ips-monitor",
+    "slug": "dell-23-8-inch-p2425d-qhd-100hz-pro-plus-ips-monitor",
+    "name": "23.8 inch P2425D QHD 100Hz Pro Plus IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 34990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03161",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-23-8-inch-p2425h-100hz-professional-ips-monitor",
+    "slug": "dell-oem-23-8-inch-p2425h-100hz-professional-ips-monitor",
+    "name": "23.8 inch P2425H 100Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL OEM",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 24990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03554",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2426h-120hz-professional-ips-monitor",
+    "slug": "dell-23-8-inch-p2426h-120hz-professional-ips-monitor",
+    "name": "23.8 inch P2426H 120Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 25990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03545",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2426he-120hz-usb-c-professional-ips-monitor",
+    "slug": "dell-23-8-inch-p2426he-120hz-usb-c-professional-ips-monitor",
+    "name": "23.8 inch P2426HE 120Hz USB-C Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 37990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03548",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2426heb-120hz-video-konferencijski-usb-c-ips-monitor",
+    "slug": "dell-23-8-inch-p2426heb-120hz-video-konferencijski-usb-c-ips-monitor",
+    "name": "23.8 inch P2426HEB 120Hz Video konferencijski USB-C IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 54990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03532",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-p2426hev-120hz-webcam-usb-c-ips-monitor",
+    "slug": "dell-23-8-inch-p2426hev-120hz-webcam-usb-c-ips-monitor",
+    "name": "23.8 inch P2426HEV 120Hz Webcam USB-C IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 50990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03531",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-s2425hsm-144hz-freesync-ips-plus-monitor",
+    "slug": "dell-23-8-inch-s2425hsm-144hz-freesync-ips-plus-monitor",
+    "name": "23.8 inch S2425HSM 144Hz FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 19990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03396",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-se2425hm-100hz-ips-monitor",
+    "slug": "dell-23-8-inch-se2425hm-100hz-ips-monitor",
+    "name": "23.8 inch SE2425HM 100Hz IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 13990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03213",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-se2426h-144hz-freesync-ips-monitor",
+    "slug": "dell-23-8-inch-se2426h-144hz-freesync-ips-monitor",
+    "name": "23.8 inch SE2426H 144Hz FreeSync IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 13990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03523",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-se2426hg-240hz-freesync-ips-gaming-monitor",
+    "slug": "dell-23-8-inch-se2426hg-240hz-freesync-ips-gaming-monitor",
+    "name": "23.8 inch SE2426HG 240Hz FreeSync IPS Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03509",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-u2424h-120hz-usb-c-ultrasharp-ips-monitor",
+    "slug": "dell-23-8-inch-u2424h-120hz-usb-c-ultrasharp-ips-monitor",
+    "name": "23.8 inch U2424H 120Hz USB-C UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 35990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02703",
+    "auto_price": true
+  },
+  {
+    "id": "dell-23-8-inch-u2424he-120hz-usb-c-ultrasharp-ips-monitor",
+    "slug": "dell-23-8-inch-u2424he-120hz-usb-c-ultrasharp-ips-monitor",
+    "name": "23.8 inch U2424HE 120Hz USB-C UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 23.8 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 23.8 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 43990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02704",
+    "auto_price": true
+  },
+  {
+    "id": "dell-24-inch-p2425e-100hz-usb-c-professional-ips-monitor",
+    "slug": "dell-24-inch-p2425e-100hz-usb-c-professional-ips-monitor",
+    "name": "24 inch P2425E 100Hz USB-C Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 24.07 inča, IPS panel i rezolucija 1.920 x 1.200 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.07 inča",
+      "Rezolucija: 1.920 x 1.200",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 37990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02778",
+    "auto_price": true
+  },
+  {
+    "id": "dell-24-inch-p2426-100hz-professional-ips-monitor",
+    "slug": "dell-24-inch-p2426-100hz-professional-ips-monitor",
+    "name": "24 inch P2426 100Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 24.1 inča, IPS panel i rezolucija 1.920 x 1.200 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.1 inča",
+      "Rezolucija: 1.920 x 1.200",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 27990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03546",
+    "auto_price": true
+  },
+  {
+    "id": "dell-24-5-inch-aw2524hf-500hz-freesync-alienware-gaming-monitor",
+    "slug": "dell-24-5-inch-aw2524hf-500hz-freesync-alienware-gaming-monitor",
+    "name": "24.5 inch AW2524HF 500Hz FreeSync Alienware Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 24.5 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 86990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02653",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-24-5-inch-aw2524hf-500hz-freesync-alienware-gaming-monitor",
+    "slug": "dell-oem-24-5-inch-aw2524hf-500hz-freesync-alienware-gaming-monitor",
+    "name": "24.5 inch AW2524HF 500Hz FreeSync Alienware Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL OEM",
+    "short_desc": "Monitor od 24.5 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 86990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02939",
+    "auto_price": true
+  },
+  {
+    "id": "dell-24-5-inch-aw2525hm-320hz-freesync-g-sync-alienware-gaming-monitor",
+    "slug": "dell-24-5-inch-aw2525hm-320hz-freesync-g-sync-alienware-gaming-monitor",
+    "name": "24.5 inch AW2525HM 320Hz FreeSync/G-Sync Alienware Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 24.5 inča, Fast IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 24.5 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: Fast IPS"
+    ],
+    "price_rsd": 34990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03338",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-aw2725d-qhd-oled-280hz-freesync-g-sync-alienware-gaming-m",
+    "slug": "dell-27-inch-aw2725d-qhd-oled-280hz-freesync-g-sync-alienware-gaming-m",
+    "name": "27 inch AW2725D QHD OLED 280Hz FreeSync/G-Sync Alienware Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 26.7 inča, OLED panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 26.7 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: OLED"
+    ],
+    "price_rsd": 88990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03352",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-aw2725dm-qhd-180hz-freesync-g-sync-alienware-gaming-monit",
+    "slug": "dell-27-inch-aw2725dm-qhd-180hz-freesync-g-sync-alienware-gaming-monit",
+    "name": "27 inch AW2725DM QHD 180Hz FreeSync/G-Sync Alienware Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, Fast IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: Fast IPS"
+    ],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03264",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-27-inch-aw2725dm-qhd-180hz-freesync-g-sync-alienware-gaming-m",
+    "slug": "dell-oem-27-inch-aw2725dm-qhd-180hz-freesync-g-sync-alienware-gaming-m",
+    "name": "27 inch AW2725DM QHD 180Hz FreeSync/G-Sync Alienware Gaming monitor bulk",
+    "category": "Monitori",
+    "brand": "DELL OEM",
+    "short_desc": "Monitor od 27 inča, Fast IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: Fast IPS"
+    ],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03259",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-aw2725qf-4k-ips-180hz-g-sync-alienware-dual-resolution-ga",
+    "slug": "dell-27-inch-aw2725qf-4k-ips-180hz-g-sync-alienware-dual-resolution-ga",
+    "name": "27 inch AW2725QF 4K IPS 180Hz G-Sync Alienware Dual-Resolution Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080, 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080, 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 78990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03032",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-e2725hm-100hz-pro-ips-monitor",
+    "slug": "dell-27-inch-e2725hm-100hz-pro-ips-monitor",
+    "name": "27 inch E2725HM 100Hz Pro IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 18990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03207",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-e2726ds-qhd-100hz-pro-ips-monitor",
+    "slug": "dell-27-inch-e2726ds-qhd-100hz-pro-ips-monitor",
+    "name": "27 inch E2726DS QHD 100Hz Pro IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 27990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03482",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-e2726hs-100hz-pro-ips-monitor",
+    "slug": "dell-27-inch-e2726hs-100hz-pro-ips-monitor",
+    "name": "27 inch E2726HS 100Hz Pro IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 20990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03481",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2725d-qhd-100hz-pro-plus-ips-monitor",
+    "slug": "dell-27-inch-p2725d-qhd-100hz-pro-plus-ips-monitor",
+    "name": "27 inch P2725D QHD 100Hz Pro Plus IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03162",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2725de-qhd-100hz-usb-c-pro-plus-ips-monitor",
+    "slug": "dell-27-inch-p2725de-qhd-100hz-usb-c-pro-plus-ips-monitor",
+    "name": "27 inch P2725DE QHD 100Hz USB-C Pro Plus IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 50990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03163",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2725qe-4k-100hz-usb-c-pro-plus-ips-monitor",
+    "slug": "dell-27-inch-p2725qe-4k-100hz-usb-c-pro-plus-ips-monitor",
+    "name": "27 inch P2725QE 4K 100Hz USB-C Pro Plus IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 69990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03164",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2726dev-qhd-100hz-webcam-usb-c-ips-monitor",
+    "slug": "dell-27-inch-p2726dev-qhd-100hz-webcam-usb-c-ips-monitor",
+    "name": "27 inch P2726DEV QHD 100Hz Webcam USB-C IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 64990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03533",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2726h-120hz-professional-ips-monitor",
+    "slug": "dell-27-inch-p2726h-120hz-professional-ips-monitor",
+    "name": "27 inch P2726H 120Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 28990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03549",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-p2726he-120hz-professional-ips-monitor",
+    "slug": "dell-27-inch-p2726he-120hz-professional-ips-monitor",
+    "name": "27 inch P2726HE 120Hz Professional IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03550",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-s2725dc-qhd-144hz-usb-c-freesync-ips-plus-monitor",
+    "slug": "dell-27-inch-s2725dc-qhd-144hz-usb-c-freesync-ips-plus-monitor",
+    "name": "27 inch S2725DC QHD 144Hz USB-C FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 41990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03399",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-s2725dsm-qhd-144hz-freesync-ips-plus-monitor",
+    "slug": "dell-27-inch-s2725dsm-qhd-144hz-freesync-ips-plus-monitor",
+    "name": "27 inch S2725DSM QHD 144Hz FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 35990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03397",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-s2725hsm-144hz-freesync-ips-plus-monitor",
+    "slug": "dell-27-inch-s2725hsm-144hz-freesync-ips-plus-monitor",
+    "name": "27 inch S2725HSM 144Hz FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 25990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03398",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-s2725qc-4k-120hz-usb-c-freesync-ips-plus-monitor",
+    "slug": "dell-27-inch-s2725qc-4k-120hz-usb-c-freesync-ips-plus-monitor",
+    "name": "27 inch S2725QC 4K 120Hz USB-C FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 56990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03208",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-s2725qs-4k-120hz-freesync-ips-plus-monitor",
+    "slug": "dell-27-inch-s2725qs-4k-120hz-freesync-ips-plus-monitor",
+    "name": "27 inch S2725QS 4K 120Hz FreeSync IPS Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 48990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03209",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-se2726h-144hz-freesync-ips-monitor",
+    "slug": "dell-27-inch-se2726h-144hz-freesync-ips-monitor",
+    "name": "27 inch SE2726H 144Hz FreeSync IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03524",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-se2726hg-240hz-freesync-ips-gaming-monitor",
+    "slug": "dell-27-inch-se2726hg-240hz-freesync-ips-gaming-monitor",
+    "name": "27 inch SE2726HG 240Hz FreeSync IPS Gaming monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 1.920 x 1.080 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 1.920 x 1.080",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 20990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03508",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-u2724d-qhd-120hz-usb-c-ultrasharp-ips-monitor",
+    "slug": "dell-27-inch-u2724d-qhd-120hz-usb-c-ultrasharp-ips-monitor",
+    "name": "27 inch U2724D QHD 120Hz USB-C UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 57990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02705",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-u2724de-qhd-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "slug": "dell-27-inch-u2724de-qhd-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "name": "27 inch U2724DE QHD 120Hz Thunderbolt UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 75990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02706",
+    "auto_price": true
+  },
+  {
+    "id": "dell-27-inch-u2725qe-4k-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "slug": "dell-27-inch-u2725qe-4k-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "name": "27 inch U2725QE 4K 120Hz Thunderbolt UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 110990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03149",
+    "auto_price": true
+  },
+  {
+    "id": "benq-27-inca-pd2705ua-ips-led-uhd-dizajnerski-monitor",
+    "slug": "benq-27-inca-pd2705ua-ips-led-uhd-dizajnerski-monitor",
+    "name": "27 inča PD2705UA IPS LED UHD Dizajnerski monitor",
+    "category": "Monitori",
+    "brand": "BENQ",
+    "short_desc": "Monitor od 27 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 27 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 86990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02581",
+    "auto_price": true
+  },
+  {
+    "id": "dell-31-5-inch-aw3225dm-qhd-180hz-freesync-alienware-gaming-zakrivljen",
+    "slug": "dell-31-5-inch-aw3225dm-qhd-180hz-freesync-alienware-gaming-zakrivljen",
+    "name": "31.5 inch AW3225DM QHD 180Hz FreeSync Alienware Gaming zakrivljeni monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 31.5 inča, VA panel i rezolucija 2.560 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 31.5 inča",
+      "Rezolucija: 2.560 x 1.440",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 45990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03158",
+    "auto_price": true
+  },
+  {
+    "id": "dell-31-5-inch-s3225qs-4k-120hz-freesync-plus-monitor",
+    "slug": "dell-31-5-inch-s3225qs-4k-120hz-freesync-plus-monitor",
+    "name": "31.5 inch S3225QS 4K 120Hz FreeSync Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 31.5 inča, VA panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 31.5 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 62990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03210",
+    "auto_price": true
+  },
+  {
+    "id": "dell-31-5-inch-u3225qe-4k-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "slug": "dell-31-5-inch-u3225qe-4k-120hz-thunderbolt-ultrasharp-ips-monitor",
+    "name": "31.5 inch U3225QE 4K 120Hz Thunderbolt UltraSharp IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 31.5 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 31.5 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 146990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03148",
+    "auto_price": true
+  },
+  {
+    "id": "dell-31-6-inch-s3225qc-4k-oled-120hz-usb-c-freesync-plus-monitor",
+    "slug": "dell-31-6-inch-s3225qc-4k-oled-120hz-usb-c-freesync-plus-monitor",
+    "name": "31.6 inch S3225QC 4K OLED 120Hz USB-C FreeSync Plus monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 31.6 inča, OLED panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 31.6 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: OLED"
+    ],
+    "price_rsd": 114990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03353",
+    "auto_price": true
+  },
+  {
+    "id": "dell-34-inch-aw3425dw-wqhd-oled-240hz-freesync-g-sync-alienware-gaming",
+    "slug": "dell-34-inch-aw3425dw-wqhd-oled-240hz-freesync-g-sync-alienware-gaming",
+    "name": "34 inch AW3425DW WQHD OLED 240Hz FreeSync/G-Sync Alienware Gaming zakrivljeni monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 34.2 inča, OLED panel i rezolucija 3.440 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 34.2 inča",
+      "Rezolucija: 3.440 x 1.440",
+      "Tip panela: OLED"
+    ],
+    "price_rsd": 120990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03316",
+    "auto_price": true
+  },
+  {
+    "id": "dell-34-inch-aw3425dwm-180hz-wqhd-freesync-alienware-gaming-zakrivljen",
+    "slug": "dell-34-inch-aw3425dwm-180hz-wqhd-freesync-alienware-gaming-zakrivljen",
+    "name": "34 inch AW3425DWM 180Hz WQHD FreeSync Alienware Gaming zakrivljeni monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 34 inča, VA panel i rezolucija 3.440 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 34 inča",
+      "Rezolucija: 3.440 x 1.440",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 54990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03157",
+    "auto_price": true
+  },
+  {
+    "id": "dell-34-inch-p3426wev-wqhd-100hz-webcam-usb-c-zakrivljeni-ips-monitor",
+    "slug": "dell-34-inch-p3426wev-wqhd-100hz-webcam-usb-c-zakrivljeni-ips-monitor",
+    "name": "34 inch P3426WEV WQHD 100Hz Webcam USB-C zakrivljeni IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 34.1 inča, IPS panel i rezolucija 3.440 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 34.1 inča",
+      "Rezolucija: 3.440 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 107990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03535",
+    "auto_price": true
+  },
+  {
+    "id": "dell-34-inch-s3425dw-120hz-wqhd-usb-c-freesync-plus-zakrivljeni-monito",
+    "slug": "dell-34-inch-s3425dw-120hz-wqhd-usb-c-freesync-plus-zakrivljeni-monito",
+    "name": "34 inch S3425DW 120Hz WQHD USB-C FreeSync Plus zakrivljeni monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 34 inča, VA panel i rezolucija 3.440 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 34 inča",
+      "Rezolucija: 3.440 x 1.440",
+      "Tip panela: VA"
+    ],
+    "price_rsd": 60990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03211",
+    "auto_price": true
+  },
+  {
+    "id": "dell-34-inch-u3425we-wqhd-120hz-thunderbolt-ultrasharp-zakrivljeni-ips",
+    "slug": "dell-34-inch-u3425we-wqhd-120hz-thunderbolt-ultrasharp-zakrivljeni-ips",
+    "name": "34 inch U3425WE WQHD 120Hz Thunderbolt UltraSharp zakrivljeni IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 34 inča, IPS panel i rezolucija 3.440 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 34 inča",
+      "Rezolucija: 3.440 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 150990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02755",
+    "auto_price": true
+  },
+  {
+    "id": "dell-39-7-inch-u4025qw-wuhd-120hz-thunderbolt-ultrasharp-zakrivljeni-i",
+    "slug": "dell-39-7-inch-u4025qw-wuhd-120hz-thunderbolt-ultrasharp-zakrivljeni-i",
+    "name": "39.7 inch U4025QW WUHD 120Hz Thunderbolt UltraSharp zakrivljeni IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 39.7 inča, IPS panel i rezolucija 5.120 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 39.7 inča",
+      "Rezolucija: 5.120 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 277990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02754",
+    "auto_price": true
+  },
+  {
+    "id": "dell-49-inch-u4924dw-qhd-ultrasharp-usb-c-zakrivljeni-ips-monitor",
+    "slug": "dell-49-inch-u4924dw-qhd-ultrasharp-usb-c-zakrivljeni-ips-monitor",
+    "name": "49 inch U4924DW QHD UltraSharp USB-C zakrivljeni IPS monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 49 inča, IPS panel i rezolucija 5.120 x 1.440 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 49 inča",
+      "Rezolucija: 5.120 x 1.440",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 214990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON02699",
+    "auto_price": true
+  },
+  {
+    "id": "dell-55-inch-p5525qc-4k-conference-room-monitor",
+    "slug": "dell-55-inch-p5525qc-4k-conference-room-monitor",
+    "name": "55 inch P5525QC 4K Conference Room monitor",
+    "category": "Monitori",
+    "brand": "DELL",
+    "short_desc": "Monitor od 54.6 inča, IPS panel i rezolucija 3.840 x 2.160 — za svakodnevni rad u kancelariji.",
+    "specs": [
+      "Veličina ekrana: 54.6 inča",
+      "Rezolucija: 3.840 x 2.160",
+      "Tip panela: IPS"
+    ],
+    "price_rsd": 188990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MON03082",
+    "auto_price": true
+  },
+  {
+    "id": "apple-20w-usb-c-power-adapter-muvv3zm-a",
+    "slug": "apple-20w-usb-c-power-adapter-muvv3zm-a",
+    "name": "20W USB-C Power Adapter (muvv3zm/a)",
+    "category": "Periferija",
+    "brand": "APPLE",
+    "short_desc": "USB-C punjač od 20W — za dopunu laptopa i tableta na radnom mestu.",
+    "specs": [
+      "Tip: Punjač za Apple uređaje",
+      "Boja: Bela",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 3790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "OST06799",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-aw320m-alienware-wired-gaming-crni-mis",
+    "slug": "dell-oem-aw320m-alienware-wired-gaming-crni-mis",
+    "name": "AW320M Alienware Wired Gaming crni miš",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Žičani optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 6290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02266",
+    "auto_price": true
+  },
+  {
+    "id": "dell-aw620m-alienware-wireless-gaming-beli-mis",
+    "slug": "dell-aw620m-alienware-wireless-gaming-beli-mis",
+    "name": "AW620M Alienware Wireless Gaming beli miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Bela",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01863",
+    "auto_price": true
+  },
+  {
+    "id": "dell-business-multimedia-kb522-usb-us-tastatura-crna",
+    "slug": "dell-business-multimedia-kb522-usb-us-tastatura-crna",
+    "name": "Business Multimedia KB522 USB US tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 5790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00956",
+    "auto_price": true
+  },
+  {
+    "id": "dell-business-multimedia-kb522-usb-yu-tastatura-crna",
+    "slug": "dell-business-multimedia-kb522-usb-yu-tastatura-crna",
+    "name": "Business Multimedia KB522 USB YU tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 5790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00943",
+    "auto_price": true
+  },
+  {
+    "id": "energy-sistem-hoshi-eco-cloud-bluetooth-slusalice-sa-mikrofonom-sive-m",
+    "slug": "energy-sistem-hoshi-eco-cloud-bluetooth-slusalice-sa-mikrofonom-sive-m",
+    "name": "Hoshi ECO Cloud Bluetooth slušalice sa mikrofonom sive (M45756)",
+    "category": "Periferija",
+    "brand": "ENERGY SISTEM",
+    "short_desc": "Slušalice sa mikrofonom — za pozive i onlajn sastanke.",
+    "specs": [
+      "Tip: Punjiva baterija",
+      "Boja: Siva",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 4190,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU02917",
+    "auto_price": true
+  },
+  {
+    "id": "dell-kb500-pro-wireless-us-tastatura-crna",
+    "slug": "dell-kb500-pro-wireless-us-tastatura-crna",
+    "name": "KB500 Pro Wireless US tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežična tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 6090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01162",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-kb500-pro-wireless-us-tastatura-crna-bulk",
+    "slug": "dell-oem-kb500-pro-wireless-us-tastatura-crna-bulk",
+    "name": "KB500 Pro Wireless US tastatura crna bulk",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Bežična tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 6090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01536",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-kb525c-pro-collaboration-us-tastatura-crna",
+    "slug": "dell-oem-kb525c-pro-collaboration-us-tastatura-crna",
+    "name": "KB525C Pro Collaboration US tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Tastatura , US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored"
+    ],
+    "price_rsd": 8390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01510",
+    "auto_price": true
+  },
+  {
+    "id": "dell-kb525c-pro-collaboration-yu-tastatura-crna",
+    "slug": "dell-kb525c-pro-collaboration-yu-tastatura-crna",
+    "name": "KB525C Pro Collaboration YU tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Tastatura , YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored"
+    ],
+    "price_rsd": 8390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01411",
+    "auto_price": true
+  },
+  {
+    "id": "dell-kb740-pro-plus-compact-multi-device-us-wireless-tastatura-siva",
+    "slug": "dell-kb740-pro-plus-compact-multi-device-us-wireless-tastatura-siva",
+    "name": "KB740 Pro Plus Compact Multi-device US wireless tastatura siva",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežična tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Siva",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 9690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01163",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km3322w-wireless-us-tastatura-mis-crna",
+    "slug": "dell-km3322w-wireless-us-tastatura-mis-crna",
+    "name": "KM3322W Wireless US tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 4690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01105",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km3322w-wireless-yu-tastatura-mis-crna",
+    "slug": "dell-km3322w-wireless-yu-tastatura-mis-crna",
+    "name": "KM3322W Wireless YU tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Tamno-siva",
+      "YU raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 4690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01106",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km5221w-pro-wireless-us-tastatura-mis-crna",
+    "slug": "dell-km5221w-pro-wireless-us-tastatura-mis-crna",
+    "name": "KM5221W Pro Wireless US tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01059",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km5221w-pro-wireless-yu-tastatura-mis-crna",
+    "slug": "dell-km5221w-pro-wireless-yu-tastatura-mis-crna",
+    "name": "KM5221W Pro Wireless YU tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01066",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km526-pro-5-srb-cyr-tastatura-mis-crna",
+    "slug": "dell-km526-pro-5-srb-cyr-tastatura-mis-crna",
+    "name": "KM526 Pro 5 SRB CYR tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, srpski ćirilični raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "srpski ćirilični raspored"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01573",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km526-pro-5-us-tastatura-mis-crna",
+    "slug": "dell-km526-pro-5-us-tastatura-mis-crna",
+    "name": "KM526 Pro 5 US tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01575",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km526-pro-5-us-tastatura-mis-siva",
+    "slug": "dell-km526-pro-5-us-tastatura-mis-siva",
+    "name": "KM526 Pro 5 US tastatura + miš siva",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Svetlo-siva",
+      "US raspored"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01574",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km526-pro-5-yu-tastatura-mis-crna",
+    "slug": "dell-km526-pro-5-yu-tastatura-mis-crna",
+    "name": "KM526 Pro 5 YU tastatura + miš crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01572",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km726-pro-7-slim-us-tastatura-mis-crna-3yr",
+    "slug": "dell-km726-pro-7-slim-us-tastatura-mis-crna-3yr",
+    "name": "KM726 Pro 7 Slim US tastatura + miš crna 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01579",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km726-pro-7-slim-yu-tastatura-mis-crna-3yr",
+    "slug": "dell-km726-pro-7-slim-yu-tastatura-mis-crna-3yr",
+    "name": "KM726 Pro 7 Slim YU tastatura + miš crna 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Komplet set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01578",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km7321w-pro-plus-wireless-multi-device-us-tastatura-mis-siva",
+    "slug": "dell-km7321w-pro-plus-wireless-multi-device-us-tastatura-mis-siva",
+    "name": "KM7321W Pro Plus Wireless Multi-device US tastatura + miš siva",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Siva",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01025",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km7321w-pro-plus-wireless-multi-device-yu-tastatura-mis-siva",
+    "slug": "dell-km7321w-pro-plus-wireless-multi-device-yu-tastatura-mis-siva",
+    "name": "KM7321W Pro Plus Wireless Multi-device YU tastatura + miš siva",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Siva",
+      "YU raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01049",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km746-pro-7-rechargeable-compact-us-tastatura-mis",
+    "slug": "dell-km746-pro-7-rechargeable-compact-us-tastatura-mis",
+    "name": "KM746 Pro 7 Rechargeable Compact US tastatura + miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 15990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01577",
+    "auto_price": true
+  },
+  {
+    "id": "dell-km746-pro-7-rechargeable-compact-yu-tastatura-mis",
+    "slug": "dell-km746-pro-7-rechargeable-compact-yu-tastatura-mis",
+    "name": "KM746 Pro 7 Rechargeable Compact YU tastatura + miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični set tastature i miša, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 15990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01576",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-lift-black-crni-mis-ms-1wrax-bm",
+    "slug": "nzxt-lift-black-crni-mis-ms-1wrax-bm",
+    "name": "Lift (Black) crni miš (MS-1WRAX-BM)",
+    "category": "Periferija",
+    "brand": "NZXT",
+    "short_desc": "Optički optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01784",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-lift-white-mis-beli-ms-1wrax-wm",
+    "slug": "nzxt-lift-white-mis-beli-ms-1wrax-wm",
+    "name": "Lift (White) miš beli (MS-1WRAX-WM)",
+    "category": "Periferija",
+    "brand": "NZXT",
+    "short_desc": "Optički optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Bela"
+    ],
+    "price_rsd": 7290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01783",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms116-usb-optical-beli-mis",
+    "slug": "dell-ms116-usb-optical-beli-mis",
+    "name": "MS116 USB Optical beli miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičani optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Bela",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 1890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01116",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-ms116-usb-optical-bulk-mis",
+    "slug": "dell-oem-ms116-usb-optical-bulk-mis",
+    "name": "MS116 USB Optical bulk miš",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Žičani optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 1890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02351",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms116-usb-optical-retail-box-mis",
+    "slug": "dell-ms116-usb-optical-retail-box-mis",
+    "name": "MS116 USB Optical retail box miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičani optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 1890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01362",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms3220-wired-laser-crni-mis-3yr",
+    "slug": "dell-ms3220-wired-laser-crni-mis-3yr",
+    "name": "MS3220 Wired Laser crni miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičani laserski miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 4090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01452",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms3220-wired-laser-sivi-mis-3yr",
+    "slug": "dell-ms3220-wired-laser-sivi-mis-3yr",
+    "name": "MS3220 Wired Laser sivi miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičani laserski miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Siva",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 4090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01547",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-ms3320w-wireless-optical-roze-mis-3yr",
+    "slug": "dell-oem-ms3320w-wireless-optical-roze-mis-3yr",
+    "name": "MS3320W Wireless Optical roze miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Roza",
+      "Bežično povezivanje",
+      "Snaga 3320W"
+    ],
+    "price_rsd": 4490,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02326",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms355-pro-silent-mis-crni",
+    "slug": "dell-ms355-pro-silent-mis-crni",
+    "name": "MS355 Pro Silent miš crni",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Optički optički miš, tih rad — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna"
+    ],
+    "price_rsd": 5190,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02050",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms5120w-pro-plus-compact-wireless-crni-mis-3yr",
+    "slug": "dell-ms5120w-pro-plus-compact-wireless-crni-mis-3yr",
+    "name": "MS5120W Pro Plus Compact Wireless crni miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje",
+      "Snaga 5120W"
+    ],
+    "price_rsd": 5190,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01491",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms526-pro-5-crni-mis-3yr",
+    "slug": "dell-ms526-pro-5-crni-mis-3yr",
+    "name": "MS526 Pro 5 crni miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Optički optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna"
+    ],
+    "price_rsd": 3790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02305",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms726-pro-7-silent-crni-mis-3yr",
+    "slug": "dell-ms726-pro-7-silent-crni-mis-3yr",
+    "name": "MS726 Pro 7 Silent crni miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Optički optički miš, tih rad — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna"
+    ],
+    "price_rsd": 6790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02304",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms7421w-pro-premium-wireless-premier-rechargeable-optical-crni-mi",
+    "slug": "dell-ms7421w-pro-premium-wireless-premier-rechargeable-optical-crni-mi",
+    "name": "MS7421W Pro Premium Wireless Premier Rechargeable Optical crni miš 3Yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje",
+      "Snaga 7421W"
+    ],
+    "price_rsd": 9390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01992",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ms746-pro-7-rechargeable-compact-wireless-crni-mis-3yr",
+    "slug": "dell-ms746-pro-7-rechargeable-compact-wireless-crni-mis-3yr",
+    "name": "MS746 Pro 7 Rechargeable Compact Wireless crni miš 3yr",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 8390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02340",
+    "auto_price": true
+  },
+  {
+    "id": "dell-multimedia-kb216-usb-srb-cyr-tastatura-crna",
+    "slug": "dell-multimedia-kb216-usb-srb-cyr-tastatura-crna",
+    "name": "Multimedia KB216 USB SRB CYR tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, srpski ćirilični raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "srpski ćirilični raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS01477",
+    "auto_price": true
+  },
+  {
+    "id": "dell-multimedia-kb216-usb-us-tastatura-bela",
+    "slug": "dell-multimedia-kb216-usb-us-tastatura-bela",
+    "name": "Multimedia KB216 USB US tastatura bela",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Bela",
+      "US raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00690",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-multimedia-kb216-usb-us-tastatura-crna",
+    "slug": "dell-oem-multimedia-kb216-usb-us-tastatura-crna",
+    "name": "Multimedia KB216 USB US tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL OEM",
+    "short_desc": "Žičana tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00757",
+    "auto_price": true
+  },
+  {
+    "id": "dell-multimedia-kb216-usb-us-tastatura-retail-box-crna",
+    "slug": "dell-multimedia-kb216-usb-us-tastatura-retail-box-crna",
+    "name": "Multimedia KB216 USB US tastatura retail box crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, US raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "US raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00858",
+    "auto_price": true
+  },
+  {
+    "id": "dell-multimedia-kb216-usb-yu-tastatura-crna",
+    "slug": "dell-multimedia-kb216-usb-yu-tastatura-crna",
+    "name": "Multimedia KB216 USB YU tastatura crna",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Žičana tastatura, YU raspored — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "YU raspored",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "TAS00644",
+    "auto_price": true
+  },
+  {
+    "id": "energy-sistem-power-radio-space-bluetooth-slusalice-crne-m45531",
+    "slug": "energy-sistem-power-radio-space-bluetooth-slusalice-crne-m45531",
+    "name": "Power Radio Space Bluetooth slušalice crne (M45531)",
+    "category": "Periferija",
+    "brand": "ENERGY SISTEM",
+    "short_desc": "Slušalice sa mikrofonom — za pozive i onlajn sastanke.",
+    "specs": [
+      "Tip: Litijum-polimerska",
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 6290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU02918",
+    "auto_price": true
+  },
+  {
+    "id": "dell-pro-plus-earbuds-eb525",
+    "slug": "dell-pro-plus-earbuds-eb525",
+    "name": "Pro Plus Earbuds EB525",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežične bubice — za pozive i onlajn sastanke.",
+    "specs": [],
+    "price_rsd": 38990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03805",
+    "auto_price": true
+  },
+  {
+    "id": "dell-pro-plus-wireless-anc-headset-wl5024",
+    "slug": "dell-pro-plus-wireless-anc-headset-wl5024",
+    "name": "Pro Plus Wireless ANC Headset WL5024",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Slušalice sa mikrofonom sa aktivnim potiskivanjem buke — za pozive i onlajn sastanke.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 49990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03131",
+    "auto_price": true
+  },
+  {
+    "id": "dell-pro-premium-wireless-anc-headset-wl7024",
+    "slug": "dell-pro-premium-wireless-anc-headset-wl7024",
+    "name": "Pro Premium Wireless ANC Headset WL7024",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Slušalice sa mikrofonom sa aktivnim potiskivanjem buke — za pozive i onlajn sastanke.",
+    "specs": [
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 54990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03806",
+    "auto_price": true
+  },
+  {
+    "id": "dell-pro-wired-headset-wh3024",
+    "slug": "dell-pro-wired-headset-wh3024",
+    "name": "Pro Wired Headset WH3024",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Slušalice sa mikrofonom — za pozive i onlajn sastanke.",
+    "specs": [
+      "Boja: Crna",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU02980",
+    "auto_price": true
+  },
+  {
+    "id": "dell-pro-wired-speakerphone-sp325",
+    "slug": "dell-pro-wired-speakerphone-sp325",
+    "name": "Pro Wired Speakerphone SP325",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Konferencijski zvučnik sa mikrofonom — za sale za sastanke i onlajn pozive.",
+    "specs": [
+      "Žično povezivanje"
+    ],
+    "price_rsd": 18990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03800",
+    "auto_price": true
+  },
+  {
+    "id": "energy-sistem-silent-anc-bluetooth-crne-slusalice-m45839",
+    "slug": "energy-sistem-silent-anc-bluetooth-crne-slusalice-m45839",
+    "name": "Silent ANC Bluetooth crne slušalice (M45839)",
+    "category": "Periferija",
+    "brand": "ENERGY SISTEM",
+    "short_desc": "Slušalice sa mikrofonom sa aktivnim potiskivanjem buke — za pozive i onlajn sastanke.",
+    "specs": [
+      "Tip: Punjiva litijum-polimerska baterija",
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 12990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03170",
+    "auto_price": true
+  },
+  {
+    "id": "dell-spikerfon-sp3022",
+    "slug": "dell-spikerfon-sp3022",
+    "name": "Spikerfon SP3022",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Konferencijski zvučnik sa mikrofonom — za sale za sastanke i onlajn pozive.",
+    "specs": [
+      "Tip: Aktivni",
+      "Boja: Bela"
+    ],
+    "price_rsd": 17990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "ZVU03700",
+    "auto_price": true
+  },
+  {
+    "id": "dell-wm118-wireless-optical-crni-mis",
+    "slug": "dell-wm118-wireless-optical-crni-mis",
+    "name": "WM118 Wireless Optical crni miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 2690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS02339",
+    "auto_price": true
+  },
+  {
+    "id": "dell-wm126-wireless-optical-crni-mis",
+    "slug": "dell-wm126-wireless-optical-crni-mis",
+    "name": "WM126 Wireless Optical crni miš",
+    "category": "Periferija",
+    "brand": "DELL",
+    "short_desc": "Bežični optički miš — za svakodnevni rad za radnim stolom.",
+    "specs": [
+      "Boja: Crna",
+      "Bežično povezivanje"
+    ],
+    "price_rsd": 2690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "MIS01150",
+    "auto_price": true
+  },
+  {
+    "id": "gigabyte-7-u-1-usb-c-hub",
+    "slug": "gigabyte-7-u-1-usb-c-hub",
+    "name": "7-u-1 USB-C Hub",
+    "category": "Laptop oprema",
+    "brand": "GIGABYTE",
+    "short_desc": "USB-C hub 7-u-1 — monitor, mreža i periferija na jednom kablu.",
+    "specs": [
+      "Boja: Siva",
+      "Žično povezivanje"
+    ],
+    "price_rsd": 2590,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24147",
+    "auto_price": true
+  },
+  {
+    "id": "dell-futrola-za-laptop-15-16-inch-ecoloop-urban-sleeve-cv4625",
+    "slug": "dell-futrola-za-laptop-15-16-inch-ecoloop-urban-sleeve-cv4625",
+    "name": "Futrola za laptop 15-16 inch Ecoloop Urban Sleeve CV4625",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Futrola za laptop do 16 inča — zaštita u rancu ili torbi.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika",
+      "Boja: Siva",
+      "Dimenzije: 380mm x 269.2mm x 24.9mm"
+    ],
+    "price_rsd": 5190,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24421",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-ranac-za-laptop-14-16-inch-essential-backpack-14-16-cp3724",
+    "slug": "dell-oem-ranac-za-laptop-14-16-inch-essential-backpack-14-16-cp3724",
+    "name": "Ranac za laptop 14-16 inch Essential Backpack 14-16 - CP3724",
+    "category": "Laptop oprema",
+    "brand": "DELL OEM",
+    "short_desc": "Ranac za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Najlon 400D, Poliester",
+      "Boja: Crna",
+      "Dimenzije: 440mm x 310mm x 140mm"
+    ],
+    "price_rsd": 4790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT26794",
+    "auto_price": true
+  },
+  {
+    "id": "dell-ranac-za-laptop-14-16-inch-premium-ecoloop-backpack-cp7625-3yr",
+    "slug": "dell-ranac-za-laptop-14-16-inch-premium-ecoloop-backpack-cp7625-3yr",
+    "name": "Ranac za laptop 14-16 inch Premium Ecoloop Backpack CP7625 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Ranac za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Nylex, Poliester 600D, Poliuretan",
+      "Boja: Crna",
+      "Dimenzije: 440mm x 300mm x 180mm"
+    ],
+    "price_rsd": 17990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT23992",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-ranac-za-laptop-15-inch-ecoloop-pro-slim-backpack-cp5724s-3yr",
+    "slug": "dell-oem-ranac-za-laptop-15-inch-ecoloop-pro-slim-backpack-cp5724s-3yr",
+    "name": "Ranac za laptop 15 inch Ecoloop Pro Slim Backpack CP5724S 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL OEM",
+    "short_desc": "Ranac za laptop do 15 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Poliester 600D",
+      "Boja: Crna",
+      "Dimenzije: 445mm x 315mm x 140mm"
+    ],
+    "price_rsd": 8390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24860",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-ranac-za-laptop-pro-14-16-plus-ecoloop-urban-backpack-cp5625g",
+    "slug": "dell-oem-ranac-za-laptop-pro-14-16-plus-ecoloop-urban-backpack-cp5625g",
+    "name": "Ranac za laptop Pro 14-16 Plus EcoLoop Urban Backpack CP5625G 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL OEM",
+    "short_desc": "Ranac za laptop — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 300D rPET Polyester, Reciklirana plastika, Tkanina",
+      "Boja: Siva",
+      "Dimenzije: 480mm x 315mm x 210mm"
+    ],
+    "price_rsd": 7990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT26795",
+    "auto_price": true
+  },
+  {
+    "id": "barkan-t50-univerzalni-zidni-nosac-za-tablet-od-7-do-12-inca",
+    "slug": "barkan-t50-univerzalni-zidni-nosac-za-tablet-od-7-do-12-inca",
+    "name": "T50 Univerzalni zidni nosač za tablet od 7 do 12 inča",
+    "category": "Laptop oprema",
+    "brand": "BARKAN",
+    "short_desc": "Barkan — oprema za kancelarijske radne mašine.",
+    "specs": [
+      "Boja: Bela"
+    ],
+    "price_rsd": 2090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT07741",
+    "auto_price": true
+  },
+  {
+    "id": "dell-torba-za-laptop-11-14-inch-pro-plus-ecoloop-sleeve-cv5426",
+    "slug": "dell-torba-za-laptop-11-14-inch-pro-plus-ecoloop-sleeve-cv5426",
+    "name": "Torba za laptop 11-14 inch Pro Plus Ecoloop Sleeve CV5426",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Torba za laptop do 14 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: Najlon 400D, XPE pena",
+      "Boja: Crna",
+      "Dimenzije: 365mm x 270mm x 35mm"
+    ],
+    "price_rsd": 5790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT26350",
+    "auto_price": true
+  },
+  {
+    "id": "dell-oem-torba-za-laptop-14-16-inch-ecoloop-essential-briefcase-14-16-",
+    "slug": "dell-oem-torba-za-laptop-14-16-inch-ecoloop-essential-briefcase-14-16-",
+    "name": "Torba za laptop 14-16 inch EcoLoop Essential Briefcase 14-16 - CC3624",
+    "category": "Laptop oprema",
+    "brand": "DELL OEM",
+    "short_desc": "Torba za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Najlon 400D, Poliester",
+      "Boja: Crna",
+      "Dimenzije: 380mm x 275mm x 50mm"
+    ],
+    "price_rsd": 3890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT25838",
+    "auto_price": true
+  },
+  {
+    "id": "dell-torba-za-laptop-14-16-inch-pro-plus-ecoloop-briefcase-cc5626-3yr",
+    "slug": "dell-torba-za-laptop-14-16-inch-pro-plus-ecoloop-briefcase-cc5626-3yr",
+    "name": "Torba za laptop 14-16 inch Pro Plus EcoLoop Briefcase CC5626 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Torba za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: Poliuretan, Reciklirana plastika, XPE pena",
+      "Boja: Crna",
+      "Dimenzije: 383mm x 310mm x 120mm"
+    ],
+    "price_rsd": 9390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT26185",
+    "auto_price": true
+  },
+  {
+    "id": "dell-torba-za-laptop-14-16-inch-pro-premium-ecoloop-briefcase-cc7625-3",
+    "slug": "dell-torba-za-laptop-14-16-inch-pro-premium-ecoloop-briefcase-cc7625-3",
+    "name": "Torba za laptop 14-16 inch Pro Premium EcoLoop Briefcase CC7625 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Torba za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Poliester 600D, XPE pena",
+      "Boja: Crna",
+      "Dimenzije: 400mm x 310mm x 130mm"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24965",
+    "auto_price": true
+  },
+  {
+    "id": "dell-torba-za-laptop-15-16-inch-pro-plus-ecoloop-sleeve-cv5626",
+    "slug": "dell-torba-za-laptop-15-16-inch-pro-plus-ecoloop-sleeve-cv5626",
+    "name": "Torba za laptop 15-16 inch Pro Plus Ecoloop Sleeve CV5626",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Torba za laptop do 16 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: Najlon 400D, XPE pena",
+      "Boja: Crna",
+      "Dimenzije: 395mm x 295mm x 35mm"
+    ],
+    "price_rsd": 6290,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT26351",
+    "auto_price": true
+  },
+  {
+    "id": "dell-torba-za-laptop-15-6-inch-ecoloop-pro-slim-briefcase-cc5624s-3yr",
+    "slug": "dell-torba-za-laptop-15-6-inch-ecoloop-pro-slim-briefcase-cc5624s-3yr",
+    "name": "Torba za laptop 15.6 inch Ecoloop Pro Slim Briefcase CC5624S 3yr",
+    "category": "Laptop oprema",
+    "brand": "DELL",
+    "short_desc": "Torba za laptop do 15.6 inča — za svakodnevno nošenje.",
+    "specs": [
+      "Materijal: 100% reciklirana plastika, Poliester 600D",
+      "Boja: Crna",
+      "Dimenzije: 390mm x 290mm x 90mm"
+    ],
+    "price_rsd": 7990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT22294",
+    "auto_price": true
+  },
+  {
+    "id": "mediacom-smartpad-azimut4-4g-phone-sp1az44-10-5-inch-t606-octa-core-1-",
+    "slug": "mediacom-smartpad-azimut4-4g-phone-sp1az44-10-5-inch-t606-octa-core-1-",
+    "name": "Smartpad AZIMUT4 4G Phone SP1AZ44 10.5 inch T606 Octa Core 1.6GHz 4GB 64GB Android 13.0",
+    "category": "Tableti",
+    "brand": "MEDIACOM",
+    "short_desc": "Tablet od 10.5 inča i 64GB memorije, sa 4G — za teren, magacin i prezentacije.",
+    "specs": [
+      "Veličina ekrana: 10.51 inča",
+      "Operativni sistem: Android 13",
+      "Memorija 64GB"
+    ],
+    "price_rsd": 16990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT23024",
+    "auto_price": true
+  },
+  {
+    "id": "mediacom-smartpad-azimut4-4g-phone-sp1az48-10-5-inch-t606-octa-core-1-",
+    "slug": "mediacom-smartpad-azimut4-4g-phone-sp1az48-10-5-inch-t606-octa-core-1-",
+    "name": "Smartpad AZIMUT4 4G Phone SP1AZ48 10.5 inch T606 Octa Core 1.6GHz 8GB 128GB Android 13.0",
+    "category": "Tableti",
+    "brand": "MEDIACOM",
+    "short_desc": "Tablet od 10.5 inča i 128GB memorije, sa 4G — za teren, magacin i prezentacije.",
+    "specs": [
+      "Veličina ekrana: 10.51 inča",
+      "Operativni sistem: Android 13",
+      "Memorija 128GB"
+    ],
+    "price_rsd": 20990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT23025",
+    "auto_price": true
+  },
+  {
+    "id": "mediacom-smartpad-azimut4-pro-4g-phone-sp1az48p-11-97-inch-t616-octa-c",
+    "slug": "mediacom-smartpad-azimut4-pro-4g-phone-sp1az48p-11-97-inch-t616-octa-c",
+    "name": "Smartpad AZIMUT4 PRO 4G Phone SP1AZ48P 11.97 inch T616 Octa Core 2.0GHz 8GB 128GB Android 14.0",
+    "category": "Tableti",
+    "brand": "MEDIACOM",
+    "short_desc": "Tablet od 11.97 inča i 128GB memorije, sa 4G — za teren, magacin i prezentacije.",
+    "specs": [
+      "Veličina ekrana: 11.97 inča",
+      "Operativni sistem: Android 14",
+      "Memorija 128GB"
+    ],
+    "price_rsd": 28990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24597",
+    "auto_price": true
+  },
+  {
+    "id": "mediacom-smartpad-iyo-8-sp8gy-8-inch-rk3562-quad-core-2-0ghz-3gb-32gb-",
+    "slug": "mediacom-smartpad-iyo-8-sp8gy-8-inch-rk3562-quad-core-2-0ghz-3gb-32gb-",
+    "name": "Smartpad IYO 8 SP8GY 8 inch RK3562 Quad Core 2.0GHz 3GB 32GB Android 14.0",
+    "category": "Tableti",
+    "brand": "MEDIACOM",
+    "short_desc": "Tablet od 8 inča i 32GB memorije — za teren, magacin i prezentacije.",
+    "specs": [
+      "Veličina ekrana: 8 inča",
+      "Operativni sistem: Android 14",
+      "Memorija 32GB"
+    ],
+    "price_rsd": 9390,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "NOT24982",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-f120-rgb-duo-triple-pack-120mm-ventilator-crni-rf-d12tf-b1",
+    "slug": "nzxt-f120-rgb-duo-triple-pack-120mm-ventilator-crni-rf-d12tf-b1",
+    "name": "F120 RGB Duo Triple Pack 120mm ventilator crni (RF-D12TF-B1)",
+    "category": "Komponente",
+    "brand": "NZXT",
+    "short_desc": "Ventilator za kućište od 120 mm — za tiše i hladnije radne mašine.",
+    "specs": [
+      "Dimenzije: 120mm x 120mm x 25mm",
+      "Prečnik 120 mm"
+    ],
+    "price_rsd": 12990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS02525",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-kraken-120-vodeno-hladjenje-rl-kr120-b1",
+    "slug": "nzxt-kraken-120-vodeno-hladjenje-rl-kr120-b1",
+    "name": "Kraken 120 vodeno hlađenje (RL-KR120-B1)",
+    "category": "Komponente",
+    "brand": "NZXT",
+    "short_desc": "Vodeno hlađenje procesora sa 120 mm radijatorom — za mašine pod stalnim opterećenjem.",
+    "specs": [
+      "Dimenzije: 152mm x 120mm x 32mm"
+    ],
+    "price_rsd": 12990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CPU01217",
+    "auto_price": true
+  },
+  {
+    "id": "nzxt-kraken-240-rgb-vodeno-hladjenje-belo-rl-kr240-w1",
+    "slug": "nzxt-kraken-240-rgb-vodeno-hladjenje-belo-rl-kr240-w1",
+    "name": "Kraken 240 RGB vodeno hlađenje belo (RL-KR240-W1)",
+    "category": "Komponente",
+    "brand": "NZXT",
+    "short_desc": "Vodeno hlađenje procesora sa 240 mm radijatorom — za mašine pod stalnim opterećenjem.",
+    "specs": [
+      "Dimenzije: 74.7mm x 55.97mm"
+    ],
+    "price_rsd": 23990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CPU01446",
+    "auto_price": true
+  },
+  {
+    "id": "cooler-master-masterfan-mf120-halo2-ventilator-mfl-b2dn-21np2-r2",
+    "slug": "cooler-master-masterfan-mf120-halo2-ventilator-mfl-b2dn-21np2-r2",
+    "name": "MasterFan MF120 Halo2 ventilator (MFL-B2DN-21NP2-R2)",
+    "category": "Komponente",
+    "brand": "COOLER MASTER",
+    "short_desc": "Ventilator za kućište — za tiše i hladnije radne mašine.",
+    "specs": [
+      "Dimenzije: 120mm x 120mm x 25mm"
+    ],
+    "price_rsd": 2790,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS02253",
+    "auto_price": true
+  },
+  {
+    "id": "raidmax-napajanje-600w-vortex-rx-600ac-v-80plus-white",
+    "slug": "raidmax-napajanje-600w-vortex-rx-600ac-v-80plus-white",
+    "name": "Napajanje 600W Vortex RX-600AC-V 80PLUS WHITE",
+    "category": "Komponente",
+    "brand": "RAIDMAX",
+    "short_desc": "Napajanje od 600W, 80 PLUS White — za pouzdan rad kancelarijskih računara.",
+    "specs": [
+      "Tip: Active",
+      "Snaga: 600",
+      "Dimenzije: 150mm x 140mm x 86mm"
+    ],
+    "price_rsd": 8090,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS01943",
+    "auto_price": true
+  },
+  {
+    "id": "raidmax-napajanje-700w-vortex-rx-700ac-v-80plus-bronze",
+    "slug": "raidmax-napajanje-700w-vortex-rx-700ac-v-80plus-bronze",
+    "name": "Napajanje 700W Vortex RX-700AC-V 80PLUS BRONZE",
+    "category": "Komponente",
+    "brand": "RAIDMAX",
+    "short_desc": "Napajanje od 700W, 80 PLUS Bronze — za pouzdan rad kancelarijskih računara.",
+    "specs": [
+      "Tip: Active",
+      "Snaga: 700",
+      "Dimenzije: 150mm x 140mm x 86mm"
+    ],
+    "price_rsd": 8890,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS01960",
+    "auto_price": true
+  },
+  {
+    "id": "raidmax-napajanje-800w-vortex-rx-800ac-v-80plus-white",
+    "slug": "raidmax-napajanje-800w-vortex-rx-800ac-v-80plus-white",
+    "name": "Napajanje 800W Vortex RX-800AC-V 80PLUS WHITE",
+    "category": "Komponente",
+    "brand": "RAIDMAX",
+    "short_desc": "Napajanje od 800W, 80 PLUS White — za pouzdan rad kancelarijskih računara.",
+    "specs": [
+      "Tip: Active",
+      "Snaga: 800",
+      "Dimenzije: 150mm x 140mm x 86mm"
+    ],
+    "price_rsd": 9690,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS01938",
+    "auto_price": true
+  },
+  {
+    "id": "cooler-master-silencio-s600-kuciste-mcs-s600-kg5n-s00-sivo",
+    "slug": "cooler-master-silencio-s600-kuciste-mcs-s600-kg5n-s00-sivo",
+    "name": "Silencio S600 kućište (MCS-S600-KG5N-S00) sivo",
+    "category": "Komponente",
+    "brand": "COOLER MASTER",
+    "short_desc": "Kućište za desktop računar — za tihu mašinu na radnom stolu.",
+    "specs": [
+      "Dimenzije: 478mm x 470.5mm x 209mm"
+    ],
+    "price_rsd": 14990,
+    "price_note": null,
+    "image": null,
+    "availability": "Na stanju kod dobavljača — isporuka 1–3 radna dana",
+    "featured": false,
+    "supplier_sku": "CAS01780",
+    "auto_price": true
+  }
+]

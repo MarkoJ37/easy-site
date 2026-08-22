@@ -1,0 +1,73 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { site, legalLine } from '../data/site';
+---
+
+<Base
+  title={`Privatnost | ${site.brand}`}
+  description="Kako Easy Computers koristi podatke koje ostavite kroz kontakt formu na easy.rs."
+>
+  <Nav />
+  <main id="main" class="section-y">
+    <div class="mx-auto max-w-site px-5 md:px-8">
+      <h1 class="text-h1 font-bold">Privatnost</h1>
+
+      <div class="mt-8 max-w-[65ch] space-y-6">
+        <p>
+          Kratko i bez pravničkog jezika: tražimo samo ono što nam treba da vam odgovorimo na
+          upit, i ne dajemo to nikome.
+        </p>
+
+        <div>
+          <h2 class="text-h2 font-medium">Šta prikupljamo</h2>
+          <p class="mt-3">
+            Samo ono što sami upišete u formu: ime i prezime, telefon, i po želji firmu, email,
+            broj računara i tekst poruke. Nemamo korisničke naloge i ne tražimo nikakve podatke
+            o plaćanju.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-h2 font-medium">Zašto i koliko dugo</h2>
+          <p class="mt-3">
+            Podatke koristimo isključivo da vas kontaktiramo povodom vašeg upita i da vam
+            pripremimo ponudu. Čuvamo ih dok traje naša poslovna komunikacija. Ako želite da ih
+            obrišemo, pišite nam na
+            <a class="font-semibold text-accent hover:underline" href={site.emailHref}>
+              {site.email}
+            </a> i brišemo ih.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-h2 font-medium">Kome ih prosleđujemo</h2>
+          <p class="mt-3">
+            Nikome. Upit stiže samo nama — kao poruka na naš telefon i kao email na
+            {' '}{site.email}. Ne prodajemo i ne ustupamo podatke trećim licima.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-h2 font-medium">Kolačići i statistika</h2>
+          <p class="mt-3">
+            Ne koristimo kolačiće za praćenje i nemamo reklamne skripte. Posete merimo preko
+            Cloudflare Web Analytics, koji ne postavlja kolačiće i ne prati pojedinačne
+            posetioce. Fontove učitavamo sa Google Fonts.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-h2 font-medium">Ko smo</h2>
+          <p class="mt-3">{legalLine}</p>
+          <p class="mt-2">
+            Telefon: <a class="text-accent hover:underline" href={site.telHref}>{site.tel}</a> ·
+            Email: <a class="text-accent hover:underline" href={site.emailHref}>{site.email}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Base>

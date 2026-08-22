@@ -1,0 +1,122 @@
+---
+import { formatRsd } from '../data/site';
+
+const plans = [
+  {
+    name: 'START',
+    price: 15000,
+    featured: false,
+    bullets: [
+      'Do 5 računara',
+      'Remote podrška (pon–pet 9–17)',
+      'Odziv: isti ili sledeći radni dan',
+      'On-site po potrebi (naplata −20%)',
+      'Windows/driver updates, AV nadzor',
+      'Popust na opremu 3%',
+    ],
+  },
+  {
+    name: 'STANDARD',
+    price: 28000,
+    featured: true,
+    bullets: [
+      'Do 10 računara',
+      'Remote podrška (pon–pet 9–17)',
+      'Odziv do 4h',
+      'On-site 1× mesečno',
+      'Windows/driver updates, AV nadzor',
+      'Backup nadzor',
+      'M365 administracija',
+      'Popust na opremu 5%',
+    ],
+  },
+  {
+    name: 'BIZNIS',
+    price: 55000,
+    featured: false,
+    bullets: [
+      'Do 20 računara + server/NAS',
+      'Remote podrška (pon–pet 9–17)',
+      'Odziv do 2h',
+      'On-site 2× mesečno',
+      'Windows/driver updates, AV nadzor',
+      'Backup nadzor + server/NAS',
+      'M365 administracija',
+      'Popust na opremu 7%',
+    ],
+  },
+];
+---
+
+<section id="cene" class="section-y">
+  <div class="mx-auto max-w-site px-5 md:px-8" data-reveal>
+    <h2 class="text-h2 font-medium">Mesečni paketi</h2>
+
+    <!-- Featured = inverted fill at identical size. No scale, no glow. DESIGN-NOTES §6.3 -->
+    <!-- No items-start: the cards stretch to equal height so the three CTAs
+         land on one line regardless of how many bullets each plan carries. -->
+    <div class="mt-10 grid gap-5 lg:grid-cols-3">
+      {
+        plans.map((p) => (
+          <div
+            class:list={[
+              'flex h-full flex-col rounded-plan border p-6 transition-all duration-200',
+              p.featured
+                ? 'border-ink bg-ink text-surface shadow-lg'
+                : 'border-line bg-surface hover:-translate-y-1 hover:border-accent hover:shadow-md',
+            ]}
+          >
+            <div class="flex items-center justify-between gap-3">
+              <h3 class="font-display text-lead font-medium tracking-wide">{p.name}</h3>
+              {p.featured && (
+                <span class="flex items-center gap-2 text-meta whitespace-nowrap">
+                  <span class="dot" />
+                  najčešći izbor
+                </span>
+              )}
+            </div>
+
+            <p class="mt-5 font-display text-[2rem] font-medium tabular-nums">
+              {formatRsd(p.price)}
+              <span class="text-lead"> RSD</span>
+            </p>
+            <p class:list={['text-meta', p.featured ? 'text-surface/70' : 'text-steel']}>
+              mesečno, bez PDV-a
+            </p>
+
+            <ul class="mt-6 space-y-2.5">
+              {p.bullets.map((b) => (
+                <li class="flex gap-3 text-meta">
+                  <span class="dot mt-2" />
+                  <span>{b}</span>
+                </li>
+              ))}
+            </ul>
+
+            {/* mt-auto pins the CTA to the card's bottom edge, aligning all three. */}
+            <div class="mt-auto pt-7">
+              <a
+                href="#kontakt"
+                class:list={[
+                  'block rounded-card px-5 py-3 text-center font-semibold transition-colors',
+                  p.featured
+                    ? 'bg-surface text-ink hover:bg-surface/90'
+                    : 'border border-line hover:border-accent hover:text-accent',
+                ]}
+              >
+                Zakažite pregled
+              </a>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <p class="mt-8 text-meta">
+      Bez ugovora: remote 2.500 RSD/h · teren u Beogradu 3.500 RSD/h · prepaid 10h = 30.000 RSD.
+    </p>
+    <p class="mt-2 text-meta text-steel">
+      Sve cene su bez PDV-a. Ugovor se raskida uz otkazni rok od 30 dana — bez vezivanja.
+    </p>
+  </div>
+</section>

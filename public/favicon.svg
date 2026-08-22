@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Easy Computers">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0F2C4E"/>
+  <text x="30" y="45" font-family="Georgia, 'Times New Roman', serif" font-size="42"
+        fill="#FFFFFF" text-anchor="middle">e</text>
+  <circle cx="50" cy="50" r="8" fill="#17A34A" stroke="#0F2C4E" stroke-width="3"/>
+</svg>

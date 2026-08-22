@@ -1,0 +1,71 @@
+---
+import UpitForm from './UpitForm.astro';
+import { site, hasViber, addressLine } from '../data/site';
+---
+
+<section id="kontakt" class="section-y">
+  <div class="mx-auto grid max-w-site gap-12 px-5 md:px-8 lg:grid-cols-12" data-reveal>
+    <div class="lg:col-span-7">
+      <h2 class="text-h2 font-medium">Zakažite besplatan pregled IT sistema</h2>
+      <p class="mt-4 max-w-[58ch] text-steel">
+        Ostavite broj telefona i javljamo se u roku od jednog radnog dana. Bez obaveze.
+      </p>
+
+      <div class="mt-8">
+        <UpitForm />
+      </div>
+    </div>
+
+    <div class="lg:col-span-5">
+      <div class="rounded-plan border border-line bg-surface p-6">
+        <h3>Direktan kontakt</h3>
+
+        <dl class="mt-5 space-y-4 text-meta">
+          <div>
+            <dt class="text-steel">Telefon</dt>
+            <dd class="mt-0.5">
+              <a class="font-semibold text-accent hover:underline" href={site.telHref}>
+                {site.tel}
+              </a>
+            </dd>
+          </div>
+
+          <div>
+            <dt class="text-steel">Email</dt>
+            <dd class="mt-0.5">
+              <a class="font-semibold text-accent hover:underline" href={site.emailHref}>
+                {site.email}
+              </a>
+            </dd>
+          </div>
+
+          {
+            hasViber && (
+              <div>
+                <dt class="text-steel">Viber / WhatsApp</dt>
+                <dd class="mt-0.5">
+                  <a class="font-semibold text-accent hover:underline" href={site.viberLink}>
+                    Pišite nam
+                  </a>
+                </dd>
+              </div>
+            )
+          }
+
+          <div>
+            <dt class="text-steel">Radno vreme</dt>
+            <dd class="mt-0.5 flex items-center gap-2 font-semibold">
+              <span class="dot"></span>
+              {site.hours}
+            </dd>
+          </div>
+
+          <div>
+            <dt class="text-steel">Adresa</dt>
+            <dd class="mt-0.5 font-semibold">{addressLine}</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>

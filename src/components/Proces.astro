@@ -1,0 +1,43 @@
+---
+/** Copy verbatim from CLAUDE.md §5.6. Numbering is the real sequence. */
+const steps = [
+  {
+    n: '1',
+    title: 'Pregled stanja',
+    desc: 'Dolazimo (ili se povezujemo remote), prolazimo kroz opremu, licence, backup i mrežu. Traje do sat vremena.',
+  },
+  {
+    n: '2',
+    title: 'Predlog i cena',
+    desc: 'U roku od 48h dobijate jednu stranu: šta je dobro, šta je rizik i šta predlažemo — sa cenom.',
+  },
+  {
+    n: '3',
+    title: 'Preuzimamo brigu',
+    desc: 'Potpisujemo ugovor bez vezivanja i od prvog dana imate koga da pozovete.',
+  },
+];
+---
+
+<section class="section-y bg-surface border-y border-line">
+  <div class="mx-auto max-w-site px-5 md:px-8" data-reveal>
+    <h2 class="text-h2 font-medium">Kako počinjemo</h2>
+
+    <!-- The numbers are nodes on a run of the status rail — DESIGN-NOTES §4 -->
+    <ol class="mt-10 grid gap-8 md:grid-cols-3">
+      {
+        steps.map((s) => (
+          <li class="relative border-t border-line pt-6 md:pt-8">
+            <span
+              class="absolute -top-[7px] left-0 block size-3.5 rounded-full border-2 border-signal bg-paper"
+              aria-hidden="true"
+            />
+            <span class="font-display text-meta font-medium text-steel">Korak {s.n}</span>
+            <h3 class="mt-1">{s.title}</h3>
+            <p class="mt-2 text-meta text-steel">{s.desc}</p>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>

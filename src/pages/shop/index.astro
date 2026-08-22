@@ -1,0 +1,223 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import UpitForm from '../../components/UpitForm.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import type { Product } from '../../components/ProductCard.astro';
+import products from '../../data/products.json';
+
+const all = products as Product[];
+
+// Sort: featured first, then category, then name (CLAUDE.md §6).
+const order = ['Monitori', 'Periferija', 'Laptop oprema', 'Tableti', 'Komponente'];
+const sorted = [...all].sort(
+  (a, b) =>
+    Number(b.featured) - Number(a.featured) ||
+    order.indexOf(a.category) - order.indexOf(b.category) ||
+    a.name.localeCompare(b.name, 'sr'),
+);
+
+const categories = order.filter((c) => all.some((p) => p.category === c));
+
+const title = 'Oprema za firme — monitori, periferija i dodaci | Easy Computers';
+const description =
+  'Monitori, tastature, miševi, slušalice i laptop oprema za mala preduzeća. Cene sa PDV-om, isporuka 1–3 radna dana. Pošaljite upit i cenu potvrđujemo uz ponudu.';
+---
+
+<Base title={title} description={description}>
+  <Nav />
+
+  <main id="main">
+    <section class="section-y pb-0">
+      <div class="mx-auto max-w-site px-5 md:px-8">
+        <h1 class="text-h1 font-bold">Oprema</h1>
+        <p class="mt-5 max-w-[62ch] text-lead text-steel">
+          Ono što najčešće isporučujemo firmama. Nema korpe — pošaljite upit i javljamo se sa
+          ponudom, predračunom i rokom isporuke.
+        </p>
+
+        <!-- Disclaimer strip (CLAUDE.md §6) -->
+        <div class="mt-8 rounded-card border border-line border-l-2 border-l-accent bg-surface p-4">
+          <p class="text-meta text-steel">
+            Cene se menjaju sa kursom i lagerom dobavljača — svaku potvrđujemo uz ponudu. Za
+            pravna lica: predračun i plaćanje po dogovoru.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter + search -->
+    <section class="sticky top-[60px] z-30 mt-10 border-y border-line bg-paper/95 backdrop-blur">
+      <div class="mx-auto max-w-site px-5 py-3 md:px-8">
+        <div class="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            class="chip is-active rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
+            data-filter="*">Sve</button
+          >
+          {
+            categories.map((category) => (
+              <button
+                type="button"
+                class="chip rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
+                data-filter={category}
+              >
+                {category}
+              </button>
+            ))
+          }
+
+          <label class="ml-auto w-full sm:w-64" for="shop-search">
+            <span class="sr-only">Pretraga opreme</span>
+            <input
+              type="search"
+              id="shop-search"
+              placeholder="Pretraga…"
+              autocomplete="off"
+              class="w-full rounded-card border border-line bg-surface px-3.5 py-1.5 text-meta outline-none transition-colors focus:border-accent"
+            />
+          </label>
+        </div>
+
+        <p class="mt-2 text-meta text-steel" id="shop-count" aria-live="polite">
+          Prikazano {sorted.length} od {sorted.length} proizvoda
+        </p>
+      </div>
+    </section>
+
+    <!-- Grid -->
+    <section class="section-y pt-8">
+      <div class="mx-auto max-w-site px-5 md:px-8">
+        <div id="shop-grid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {sorted.map((product) => <ProductCard product={product} />)}
+        </div>
+
+        <p id="shop-empty" class="hidden py-16 text-center text-steel">
+          Ništa ne odgovara pretrazi. Probajte drugi pojam ili nas pozovite — nabavljamo i ono
+          što nije na sajtu.
+        </p>
+      </div>
+    </section>
+
+    <!-- Upit -->
+    <section id="upit" class="border-t border-line bg-surface section-y">
+      <div class="mx-auto grid max-w-site gap-12 px-5 md:px-8 lg:grid-cols-12">
+        <div class="lg:col-span-7">
+          <h2 class="text-h2 font-medium">Pošaljite upit</h2>
+          <p class="mt-4 max-w-[58ch] text-steel">
+            Napišite šta vam treba i u kojoj količini — javljamo se sa ponudom i rokom isporuke.
+          </p>
+
+          <p
+            id="upit-selected"
+            class="mt-5 hidden items-center gap-3 rounded-card border border-line bg-paper p-3 text-meta"
+          >
+            <span class="dot flex-none"></span>
+            <span>Upit za: <strong id="upit-selected-name"></strong></span>
+            <button
+              type="button"
+              id="upit-clear"
+              class="ml-auto font-semibold text-accent hover:underline">Poništi</button
+            >
+          </p>
+
+          <div class="mt-6">
+            <UpitForm />
+          </div>
+        </div>
+
+        <div class="lg:col-span-5">
+          <div class="rounded-plan border border-line bg-paper p-6">
+            <h3>Za pravna lica</h3>
+            <ul class="mt-4 space-y-3 text-meta text-steel">
+              <li class="flex gap-3"><span class="dot mt-2 flex-none"></span>Predračun i plaćanje po dogovoru.</li>
+              <li class="flex gap-3"><span class="dot mt-2 flex-none"></span>Cene potvrđujemo uz ponudu — kurs i lager se menjaju.</li>
+              <li class="flex gap-3"><span class="dot mt-2 flex-none"></span>Uz ugovor o održavanju imate popust 3–7% na svu opremu.</li>
+              <li class="flex gap-3"><span class="dot mt-2 flex-none"></span>Nabavljamo i ono što nije na sajtu — pitajte.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Base>
+
+<style>
+  .chip.is-active {
+    background-color: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-surface);
+  }
+</style>
+
+<script>
+
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-product]'));
+  const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.chip'));
+  const search = document.getElementById('shop-search') as HTMLInputElement | null;
+  const count = document.getElementById('shop-count');
+  const empty = document.getElementById('shop-empty');
+
+  let category = '*';
+
+  function apply() {
+    const term = (search?.value ?? '').trim().toLowerCase();
+    let shown = 0;
+
+    for (const card of cards) {
+      const matchesCategory = category === '*' || card.dataset.category === category;
+      const matchesTerm = !term || (card.dataset.search ?? '').includes(term);
+      const visible = matchesCategory && matchesTerm;
+      // Inline style, not the `hidden` attribute or a `hidden` class: the cards
+      // carry `flex`, and an author display utility beats both the UA
+      // `[hidden] { display: none }` rule and an equal-specificity class.
+      card.style.display = visible ? '' : 'none';
+      if (visible) shown += 1;
+    }
+
+    if (count) count.textContent = `Prikazano ${shown} od ${cards.length} proizvoda`;
+    empty?.classList.toggle('hidden', shown > 0);
+  }
+
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      category = chip.dataset.filter ?? '*';
+      for (const other of chips) other.classList.toggle('is-active', other === chip);
+      apply();
+    });
+  }
+
+  search?.addEventListener('input', apply);
+
+  // "Pošaljite upit" on a card: fill the hidden field, show what was picked,
+  // then scroll to the form. Plain DOM, no modal.
+  const proizvod = document.getElementById('upit-proizvod') as HTMLInputElement | null;
+  const selected = document.getElementById('upit-selected');
+  const selectedName = document.getElementById('upit-selected-name');
+  const clear = document.getElementById('upit-clear');
+
+  document.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLElement>('[data-upit]');
+    if (!button) return;
+
+    const name = button.dataset.upit ?? '';
+    if (proizvod) proizvod.value = name;
+    if (selectedName) selectedName.textContent = name;
+    selected?.classList.remove('hidden');
+    selected?.classList.add('flex');
+
+    document.getElementById('upit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    (document.getElementById('ime') as HTMLInputElement | null)?.focus({ preventScroll: true });
+  });
+
+  clear?.addEventListener('click', () => {
+    if (proizvod) proizvod.value = '';
+    selected?.classList.add('hidden');
+    selected?.classList.remove('flex');
+  });
+
+  apply();
+</script>

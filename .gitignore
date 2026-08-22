@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.production
+.DS_Store
+npm-debug.log*
+
+# Supplier price feeds — internal buy prices, never published, never committed.
+ewe/
+pricefeeds/
+*.xlsx

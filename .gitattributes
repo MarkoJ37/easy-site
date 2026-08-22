@@ -1,0 +1,8 @@
+# Normalise line endings in the repo so moving between the desktop and the
+# laptop doesn't produce whole-file diffs.
+* text=auto eol=lf
+
+*.png binary
+*.pdf binary
+*.xlsx binary
+*.svg text eol=lf

@@ -1,0 +1,104 @@
+---
+import { site } from '../data/site';
+
+const links = [
+  { href: '#usluge', label: 'Usluge' },
+  { href: '#cene', label: 'Cene' },
+  { href: '/shop', label: 'Oprema' },
+  { href: '#kontakt', label: 'Kontakt' },
+];
+---
+
+<header
+  id="site-nav"
+  class="sticky top-0 z-40 border-b border-line bg-surface/95 backdrop-blur transition-shadow"
+>
+  <nav class="mx-auto flex h-[60px] max-w-site items-center gap-4 px-5 md:px-8" aria-label="Glavna navigacija">
+    <a href="/" class="flex-none" aria-label={`${site.brand} — početna`}>
+      <img src="/logo.png" alt={site.brand} width="148" height="59" class="h-8 w-auto" />
+    </a>
+
+    <ul class="ml-auto hidden items-center gap-7 md:flex">
+      {
+        links.map((l) => (
+          <li>
+            <a href={l.href} class="text-meta font-semibold transition-colors hover:text-accent">
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <a
+      href="#kontakt"
+      class="ml-auto hidden rounded-card bg-accent px-4 py-2 text-meta font-semibold text-surface transition-colors hover:bg-ink md:ml-0 md:block"
+    >
+      Besplatan IT pregled
+    </a>
+
+    <button
+      type="button"
+      id="nav-toggle"
+      class="ml-auto rounded-card border border-line p-2 md:hidden"
+      aria-expanded="false"
+      aria-controls="nav-mobile"
+      aria-label="Otvori meni"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </nav>
+
+  <div id="nav-mobile" class="hidden border-t border-line bg-surface md:hidden">
+    <ul class="mx-auto flex max-w-site flex-col px-5 py-2">
+      {
+        links.map((l) => (
+          <li>
+            <a href={l.href} class="block border-b border-line py-3 font-semibold last:border-0">
+              {l.label}
+            </a>
+          </li>
+        ))
+      }
+      <li class="py-3">
+        <a
+          href="#kontakt"
+          class="block rounded-card bg-accent px-4 py-3 text-center font-semibold text-surface"
+        >
+          Besplatan IT pregled
+        </a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const panel = document.getElementById('nav-mobile');
+  const nav = document.getElementById('site-nav');
+
+  if (toggle && panel) {
+    toggle.addEventListener('click', () => {
+      const open = panel.classList.toggle('hidden');
+      toggle.setAttribute('aria-expanded', String(!open));
+      toggle.setAttribute('aria-label', open ? 'Otvori meni' : 'Zatvori meni');
+    });
+
+    // Any in-page jump closes the panel, otherwise it covers the target.
+    panel.addEventListener('click', (e) => {
+      if ((e.target as HTMLElement).closest('a')) {
+        panel.classList.add('hidden');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Otvori meni');
+      }
+    });
+  }
+
+  if (nav) {
+    const onScroll = () => nav.classList.toggle('shadow-sm', window.scrollY > 40);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

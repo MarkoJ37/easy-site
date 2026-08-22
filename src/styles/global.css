@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   easy.rs design tokens — every value traced to DESIGN-NOTES.md
+   Sampled from logo/logo.png, not from the brief's remembered hexes.
+   ========================================================================== */
+
+@theme {
+  /* Palette (DESIGN-NOTES §2) */
+  --color-ink: #0f2c4e;        /* logo navy — headings, body, nav, footer, inverted cards */
+  --color-paper: #f7f8f9;      /* cool near-white; overrides the brief's warm #FAFAF7 */
+  --color-surface: #ffffff;    /* cards on paper */
+  --color-steel: #5a6675;      /* secondary text, meta */
+  --color-line: #e3e7eb;       /* 1px rules, card borders */
+  --color-accent: #1a6c99;     /* links + primary CTA — logo blue, darkened to AA (5.2:1) */
+  --color-signal: #17a34a;     /* THE status dot. Graphic use only — 3.0:1, fails as text */
+  --color-signal-ink: #10763a; /* the same green when it must be readable text (5.2:1) */
+
+  /* Type (DESIGN-NOTES §3) */
+  --font-display: "Space Grotesk", "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --text-h1: clamp(2.15rem, 1.35rem + 3.4vw, 3.4rem);
+  --text-h1--line-height: 1.05;
+  --text-h1--letter-spacing: -0.02em;
+  --text-h2: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.01em;
+  --text-lead: 1.1875rem;
+  --text-lead--line-height: 1.55;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-meta: 0.875rem;
+  --text-meta--line-height: 1.45;
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1.2;
+  --text-eyebrow--letter-spacing: 0.08em;
+
+  /* Rhythm (DESIGN-NOTES §5).
+     These live in the @theme namespaces Tailwind v4 reads, so they generate
+     real utilities: --container-* → max-w-site, --radius-* → rounded-card.
+     Do NOT reference them as arbitrary values (max-w-[--container-site]) —
+     v4 drops that silently and you get no CSS at all. */
+  --container-site: 1100px;
+
+  --radius-card: 6px;
+  --radius-plan: 8px;
+}
+
+/* Section rhythm. A plain class rather than a spacing token, so it stays one
+   decision applied in one place across all eleven sections. */
+.section-y {
+  padding-block: clamp(3.5rem, 8vw, 6rem);
+}
+
+/* --------------------------------------------------------------------------
+   Base
+   -------------------------------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+  /* the sticky nav is 60px — anchor targets must clear it */
+  scroll-padding-top: 76px;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+  text-wrap: balance;
+}
+
+h3, h4 {
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Visible keyboard focus everywhere — quality floor, CLAUDE.md §2 */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   The signature element: status dot + rail (DESIGN-NOTES §4)
+   -------------------------------------------------------------------------- */
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-signal);
+  flex: none;
+}
+
+/* Hero eyebrow only: one slow ring, opacity-animated so it cannot cause layout work */
+.dot--pulse {
+  position: relative;
+}
+
+.dot--pulse::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1px solid var(--color-signal);
+  opacity: 0;
+  animation: dot-ring 2.4s cubic-bezier(0.2, 0.6, 0.2, 1) infinite;
+}
+
+@keyframes dot-ring {
+  0%   { opacity: 0.7; transform: scale(0.6); }
+  70%  { opacity: 0;   transform: scale(1.4); }
+  100% { opacity: 0;   transform: scale(1.4); }
+}
+
+/* --------------------------------------------------------------------------
+   Texture + motion for the hero network graphic
+   -------------------------------------------------------------------------- */
+
+/* Fine dot grid, faded out toward the edges so it never draws a hard border. */
+.bg-dotgrid {
+  background-image: radial-gradient(circle at 1px 1px, var(--color-line) 1px, transparent 0);
+  background-size: 22px 22px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
+}
+
+/* Traffic moving along the network lines — the "sve radi" idea, animated. */
+.flow {
+  stroke-dasharray: 3 9;
+  animation: flow 2.8s linear infinite;
+}
+
+@keyframes flow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+/* Node "online" blink, offset per node so they don't pulse in lockstep. */
+.node-live {
+  animation: node-live 2.8s ease-in-out infinite;
+}
+
+@keyframes node-live {
+  0%, 100% { opacity: 0.35; }
+  50%      { opacity: 1; }
+}
+
+/* --------------------------------------------------------------------------
+   Scroll reveal — content is visible at rest; JS only adds the entrance.
+   Nothing is hidden unless JS has explicitly armed it, so a script failure
+   can never blank the page.
+   -------------------------------------------------------------------------- */
+
+[data-reveal].is-armed {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+  transition: opacity 320ms cubic-bezier(0.2, 0.6, 0.2, 1),
+              transform 320ms cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .dot--pulse::after,
+  .flow,
+  .node-live {
+    animation: none;
+  }
+
+  .node-live {
+    opacity: 1;
+  }
+
+  [data-reveal].is-armed,
+  [data-reveal].is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

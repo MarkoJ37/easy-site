@@ -1,0 +1,62 @@
+---
+/** Copy verbatim from CLAUDE.md §5.8. Native <details> — no JS accordion. */
+const items = [
+  {
+    q: 'Da li moramo da kupujemo opremu kod vas?',
+    a: 'Ne. Održavamo i opremu kupljenu bilo gde. Naši klijenti obično vremenom pređu na nabavku kod nas — jer je jednostavnije i jer imaju popust.',
+  },
+  {
+    q: 'Da li postoji vezivanje ugovorom?',
+    a: 'Ne. Mesečni paketi se raskidaju uz otkazni rok od 30 dana.',
+  },
+  {
+    q: 'Šta ako imamo "svog čoveka" za IT?',
+    a: 'Odlično — možemo da pokrivamo ono što on ne stiže: hitne intervencije, nabavku, licence ili samo backup.',
+  },
+  {
+    q: 'Koliko brzo reagujete?',
+    a: 'Remote najčešće u roku od sat-dva. Na teren u Beogradu izlazimo isti ili sledeći radni dan, po paketu i do 2h.',
+  },
+  {
+    q: 'Radite li van Beograda?',
+    a: 'Da — remote pokrivamo celu Srbiju, a teren van Beograda uz putne troškove.',
+  },
+  {
+    q: 'Koliko košta IT pregled?',
+    a: 'Ništa. To je sat vremena našeg rada i jedna strana nalaza — vredi 12.000 RSD, ali je besplatan jer je najbolji način da se upoznamo.',
+  },
+];
+---
+
+<section class="section-y bg-surface border-y border-line">
+  <div class="mx-auto max-w-site px-5 md:px-8" data-reveal>
+    <h2 class="text-h2 font-medium">Pitanja koja najčešće dobijamo</h2>
+
+    <div class="mt-10 max-w-[70ch]">
+      {
+        items.map((item) => (
+          <details class="group border-t border-line last:border-b">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 py-5 font-semibold [&::-webkit-details-marker]:hidden">
+              {item.q}
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="flex-none text-steel transition-transform duration-200 group-open:-rotate-180"
+                aria-hidden="true"
+              >
+                <path d="m6 9 6 6 6-6" />
+              </svg>
+            </summary>
+            <p class="pb-5 text-steel">{item.a}</p>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>
