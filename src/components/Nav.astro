@@ -2,10 +2,10 @@
 import { site } from '../data/site';
 
 const links = [
-  { href: '#usluge', label: 'Usluge' },
-  { href: '#cene', label: 'Cene' },
+  { href: '/#usluge', label: 'Usluge' },
+  { href: '/#cene', label: 'Cene' },
   { href: '/shop', label: 'Oprema' },
-  { href: '#kontakt', label: 'Kontakt' },
+  { href: '/#kontakt', label: 'Kontakt' },
 ];
 ---
 
@@ -31,7 +31,7 @@ const links = [
     </ul>
 
     <a
-      href="#kontakt"
+      href="/#kontakt"
       class="ml-auto hidden rounded-card bg-accent px-4 py-2 text-meta font-semibold text-surface transition-colors hover:bg-ink md:ml-0 md:block"
     >
       Besplatan IT pregled
@@ -64,7 +64,7 @@ const links = [
       }
       <li class="py-3">
         <a
-          href="#kontakt"
+          href="/#kontakt"
           class="block rounded-card bg-accent px-4 py-3 text-center font-semibold text-surface"
         >
           Besplatan IT pregled
@@ -80,6 +80,14 @@ const links = [
   const nav = document.getElementById('site-nav');
 
   if (toggle && panel) {
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && !panel.classList.contains('hidden')) {
+        panel.classList.add('hidden');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Otvori meni');
+        toggle.focus();
+      }
+    });
     toggle.addEventListener('click', () => {
       const open = panel.classList.toggle('hidden');
       toggle.setAttribute('aria-expanded', String(!open));

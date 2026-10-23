@@ -1,5 +1,21 @@
 # DESIGN-NOTES.md — easy.rs
 
+## Revision — 11 September 2026
+
+The user requested replacement visuals and a full visual review. The hero now pairs
+the original headline with a custom, cool-neutral 3D IT still life in the existing navy,
+blue and green palette. The composition is conceptual, not a company/product photograph.
+An accompanying 1200×630 social card uses the same visual direction. Source prompts
+and artwork are in `artwork/`; optimized web assets are in `public/`.
+
+The catalog retains honest typographic product cards, with category labels, 12-item
+pagination, horizontal category filters and explicit quote-time availability.
+The logo, section order and core palette remain. Fonts are now served locally with
+Serbian Latin coverage. Browser review covers 360/768/1440px, focus, motion, contrast,
+form errors and sticky offsets. Screenshots: `artifacts/visual/`.
+
+Earlier sketches and open-item lists below are historical; current setup is in README.md.
+
 Pass 1 (plan) and pass 2 (self-critique) per CLAUDE.md §2. **No code written yet.**
 Every visual decision in the build must trace back to a token in §2 or a rule in §5 of this file.
 

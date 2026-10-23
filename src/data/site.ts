@@ -16,7 +16,7 @@ export const site = {
 
   // {VIBER_LINK} — the last open placeholder. Kept grep-able per CLAUDE.md §0.
   // The Kontakt component must hide the Viber/WhatsApp link while this is unset.
-  viberLink: '{VIBER_LINK}',
+  viberLink: import.meta.env.PUBLIC_VIBER_LINK || '{VIBER_LINK}',
 
   pib: '102699654',
   mb: '17458795',
@@ -46,6 +46,9 @@ export const legalLine = `${site.legalName} · PIB ${site.pib} · MB ${site.mb} 
 
 /** true once Marko replaces the token, so components can conditionally render. */
 export const hasViber = !site.viberLink.startsWith('{');
+
+export const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN || '';
+export const analyticsEnabled = /^[a-f0-9]{32}$/i.test(cfBeaconToken);
 
 /**
  * 18990 -> "18.990" — Serbian thousands separator, used for every price on /shop.

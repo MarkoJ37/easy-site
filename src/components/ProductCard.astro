@@ -38,7 +38,7 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
 >
   {/* No photos at launch — a typographic field, never a grey broken-image box. */}
   <div
-    class="flex h-28 items-center justify-center rounded-card border border-line bg-paper px-4"
+    class="flex h-24 items-center justify-between gap-4 rounded-card border border-line bg-paper px-4"
   >
     {
       product.image ? (
@@ -49,11 +49,12 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
           class="max-h-24 w-auto object-contain"
         />
       ) : (
-        <span class="text-center font-display text-lead font-medium tracking-wide text-steel">
+        <span class="font-display text-lead font-medium tracking-wide text-ink">
           {product.brand}
         </span>
       )
     }
+    {!product.image && <span class="max-w-24 text-right text-eyebrow text-steel">{product.category}</span>}
   </div>
 
   {

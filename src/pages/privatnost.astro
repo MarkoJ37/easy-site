@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
-import { site, legalLine } from '../data/site';
+import { site, legalLine, analyticsEnabled } from '../data/site';
 ---
 
 <Base
@@ -17,15 +17,20 @@ import { site, legalLine } from '../data/site';
       <div class="mt-8 max-w-[65ch] space-y-6">
         <p>
           Kratko i bez pravničkog jezika: tražimo samo ono što nam treba da vam odgovorimo na
-          upit, i ne dajemo to nikome.
+          upit. Podatke ne prodajemo i ne koristimo za reklamne liste.
         </p>
 
         <div>
           <h2 class="text-h2 font-medium">Šta prikupljamo</h2>
           <p class="mt-3">
-            Samo ono što sami upišete u formu: ime i prezime, telefon, i po želji firmu, email,
-            broj računara i tekst poruke. Nemamo korisničke naloge i ne tražimo nikakve podatke
+            Ime i prezime, telefon i poruku, a po želji firmu, email i broj računara.
+            Ako upit šaljete iz kataloga, primamo i naziv izabranog proizvoda.
+            Nemamo korisničke naloge i ne tražimo nikakve podatke
             o plaćanju.
+          </p>
+          <p class="mt-3">
+            Za zaštitu forme od prekomernog slanja server koristi hash IP adrese i vreme
+            pokušaja slanja. Ovi zapisi služe ograničenju broja upita, ne oglašavanju.
           </p>
         </div>
 
@@ -35,7 +40,7 @@ import { site, legalLine } from '../data/site';
             Podatke koristimo isključivo da vas kontaktiramo povodom vašeg upita i da vam
             pripremimo ponudu. Čuvamo ih dok traje naša poslovna komunikacija. Ako želite da ih
             obrišemo, pišite nam na
-            <a class="font-semibold text-accent hover:underline" href={site.emailHref}>
+            {' '}<a class="font-semibold text-accent hover:underline" href={site.emailHref}>
               {site.email}
             </a> i brišemo ih.
           </p>
@@ -44,17 +49,20 @@ import { site, legalLine } from '../data/site';
         <div>
           <h2 class="text-h2 font-medium">Kome ih prosleđujemo</h2>
           <p class="mt-3">
-            Nikome. Upit stiže samo nama — kao poruka na naš telefon i kao email na
-            {' '}{site.email}. Ne prodajemo i ne ustupamo podatke trećim licima.
+            Upit je namenjen našem timu i dostavlja se na {site.email} i preko servisa
+            Telegram. Ovi kanali obrađuju podatke radi prenosa poruke.
+            Podatke ne prodajemo i ne prosleđujemo drugim firmama radi marketinga.
           </p>
         </div>
 
         <div>
           <h2 class="text-h2 font-medium">Kolačići i statistika</h2>
           <p class="mt-3">
-            Ne koristimo kolačiće za praćenje i nemamo reklamne skripte. Posete merimo preko
-            Cloudflare Web Analytics, koji ne postavlja kolačiće i ne prati pojedinačne
-            posetioce. Fontove učitavamo sa Google Fonts.
+            Ne koristimo kolačiće za praćenje i nemamo reklamne skripte.{' '}
+            {analyticsEnabled
+              ? 'Posete merimo preko Cloudflare Web Analytics, bez kolačića za praćenje.'
+              : 'Analitika poseta trenutno nije uključena.'}{' '}
+            Fontove učitavamo sa našeg sajta, bez zahteva ka Google Fonts servisu.
           </p>
         </div>
 

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Seed src/data/products.json from the EWE portal XLSX.
+Refresh the selected src/data/products.json catalog from the EWE portal XLSX.
 
-One-time seeder (the v1.1 refresher in prompt P6 updates prices later).
+Preserves manual products and editorial fields; never imports unselected items.
 Rules are Marko's, settled 18 Aug 2026:
   * only items with a populated PMP are eligible
   * price_rsd = PMP x 1.05, rounded to nearest ...90 under 10.000 / ...990 above
@@ -15,22 +15,21 @@ raw spec dump whose values run together, and the EWE names are already precise
 Serbian ("KM5221W Pro Wireless YU tastatura + miš crna"), so the name is both
 more reliable and closer to how a buyer would describe the thing.
 """
-import io
+import argparse
+import math
 import json
 import os
 import re
-import statistics
 import sys
 from collections import defaultdict
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 import openpyxl
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 XLSX = os.path.join(ROOT, "ewe", "proizvodi_1787076117030.xlsx")
 OUT = os.path.join(ROOT, "src", "data", "products.json")
 
-AVAILABILITY = "Na stanju kod dobavljača — isporuka 1–3 radna dana"
+AVAILABILITY = "Dostupnost i rok isporuke potvrđujemo uz ponudu"
 
 # EWE kategorija -> shop category. Names describe what is actually in the feed:
 # "Laptop računari i oprema" carries zero laptops at PMP, only bags and stands.
@@ -79,13 +78,23 @@ SPEC_RE = re.compile(r"(?:^|\s)(" + "|".join(map(re.escape, SPEC_KEYS)) + r"):\s
 
 
 def num(value):
-    if value is None or str(value).strip() == "":
+    """Accept Excel numbers, Serbian grouped amounts and decimal-dot exports."""
+    if value is None or isinstance(value, bool) or str(value).strip() == "":
         return None
+    if isinstance(value, (int, float)):
+        return float(value) if math.isfinite(value) and value > 0 else None
     text = str(value).replace("RSD", "").replace("\xa0", "").replace(" ", "").strip()
-    text = text.replace(".", "").replace(",", ".")
+    if "," in text:
+        if not re.fullmatch(r"(?:\d+|\d{1,3}(?:\.\d{3})+),\d{1,2}", text):
+            return None
+        text = text.replace(".", "").replace(",", ".")
+    elif re.fullmatch(r"\d{1,3}(?:\.\d{3})+", text):
+        text = text.replace(".", "")
+    elif not re.fullmatch(r"\d+(?:\.\d{1,2})?", text):
+        return None
     try:
         parsed = float(text)
-        return parsed if parsed > 0 else None
+        return parsed if math.isfinite(parsed) and parsed > 0 else None
     except ValueError:
         return None
 
@@ -315,11 +324,23 @@ def build_specs(specs, name, category):
 
 
 def main():
-    workbook = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", default=XLSX, help="Path to EWE XLSX export")
+    args = parser.parse_args()
+    with open(OUT, encoding="utf-8") as handle:
+        existing = json.load(handle)
+    for key in ('id', 'slug'):
+        if len({p[key] for p in existing}) != len(existing):
+            raise ValueError(f"Catalog contains duplicate {key} values; refresh aborted")
+    selected = {p["supplier_sku"]: p for p in existing if p.get("auto_price") and p.get("supplier_sku")}
+    workbook = openpyxl.load_workbook(args.input, read_only=True, data_only=True)
     sheet = workbook["ewe"]
     rows = sheet.iter_rows(values_only=True)
     header = next(rows)
     idx = {name: i for i, name in enumerate(header)}
+    required = {"Ident", "PMP", "Kategorija", "Podkategorija", "Proizvođač", "Naziv", "Cena sa popustom", "Opis"}
+    if not required.issubset(idx):
+        raise ValueError("Export is missing required columns")
 
     items = {}
     for row in rows:
@@ -344,7 +365,7 @@ def main():
     products, skipped = [], []
     for ident, item in items.items():
         category = CATEGORY_MAP.get(item["kat"])
-        if not category or not item["pmp"] or not item["name"]:
+        if ident not in selected or not category or not item["pmp"] or not item["name"]:
             continue
 
         price = round_90(item["pmp"] * 1.05)
@@ -355,7 +376,7 @@ def main():
         specs_map = parse_opis(item["opis"])
         slug = slugify(f"{item['brand']}-{item['name']}") or slugify(ident)
 
-        products.append({
+        product = {
             "id": slug,
             "slug": slug,
             "name": item["name"],
@@ -370,29 +391,32 @@ def main():
             "featured": False,
             "supplier_sku": ident,
             "auto_price": True,
-        })
+        }
+        old = selected[ident]
+        for key in ("id", "slug", "name", "category", "brand", "short_desc", "specs", "image", "featured"):
+            product[key] = old[key]
+        products.append(product)
 
-    seen = defaultdict(int)
-    for product in products:
-        seen[product["slug"]] += 1
-        if seen[product["slug"]] > 1:
-            product["slug"] = product["id"] = f"{product['slug']}-{product['supplier_sku'].lower()}"
+    updated = {p["supplier_sku"]: p for p in products}
+    products = []
+    for old in existing:
+        if not old.get("auto_price"):
+            products.append(old)
+        elif old.get("supplier_sku") in updated:
+            products.append(updated[old["supplier_sku"]])
+        else:
+            products.append({**old, "price_rsd": None, "price_note": "Cena na upit", "availability": AVAILABILITY})
 
     by_category = defaultdict(list)
     for product in products:
         by_category[product["category"]].append(product)
 
-    # One featured item per category: nearest that category's median price —
-    # typical rather than cheapest or flashiest.
-    for group in by_category.values():
-        median = statistics.median(p["price_rsd"] for p in group)
-        min(group, key=lambda p: abs(p["price_rsd"] - median))["featured"] = True
+    products.sort(key=lambda p: (not p["featured"], CATEGORY_ORDER.index(p["category"]) if p["category"] in CATEGORY_ORDER else len(CATEGORY_ORDER), p["name"]))
 
-    products.sort(key=lambda p: (not p["featured"], CATEGORY_ORDER.index(p["category"]), p["name"]))
-
-    with open(OUT, "w", encoding="utf-8") as handle:
+    with open(OUT + ".tmp", "w", encoding="utf-8") as handle:
         json.dump(products, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
+    os.replace(OUT + ".tmp", OUT)
 
     print(f"wrote {OUT}\n{len(products)} products")
     for category in CATEGORY_ORDER:
@@ -411,4 +435,5 @@ def main():
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
     main()

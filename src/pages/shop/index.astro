@@ -10,7 +10,7 @@ import products from '../../data/products.json';
 const all = products as Product[];
 
 // Sort: featured first, then category, then name (CLAUDE.md §6).
-const order = ['Monitori', 'Periferija', 'Laptop oprema', 'Tableti', 'Komponente'];
+const order = ['Monitori', 'Periferija', 'Laptop oprema', 'Tableti', 'Komponente', 'Softver i licence'];
 const sorted = [...all].sort(
   (a, b) =>
     Number(b.featured) - Number(a.featured) ||
@@ -18,18 +18,18 @@ const sorted = [...all].sort(
     a.name.localeCompare(b.name, 'sr'),
 );
 
-const categories = order.filter((c) => all.some((p) => p.category === c));
+const categories = [...new Set([...order, ...all.map(p => p.category)])].filter((c) => all.some((p) => p.category === c));
 
 const title = 'Oprema za firme — monitori, periferija i dodaci | Easy Computers';
 const description =
-  'Monitori, tastature, miševi, slušalice i laptop oprema za mala preduzeća. Cene sa PDV-om, isporuka 1–3 radna dana. Pošaljite upit i cenu potvrđujemo uz ponudu.';
+  'Monitori, periferija, laptop oprema i licence za mala preduzeća. Cene sa PDV-om. Dostupnost, cenu i rok isporuke potvrđujemo uz ponudu.';
 ---
 
 <Base title={title} description={description}>
   <Nav />
 
   <main id="main">
-    <section class="section-y pb-0">
+    <section class="pt-12 md:pt-16">
       <div class="mx-auto max-w-site px-5 md:px-8">
         <h1 class="text-h1 font-bold">Oprema</h1>
         <p class="mt-5 max-w-[62ch] text-lead text-steel">
@@ -48,19 +48,22 @@ const description =
     </section>
 
     <!-- Filter + search -->
-    <section class="sticky top-[60px] z-30 mt-10 border-y border-line bg-paper/95 backdrop-blur">
+    <section id="shop-filters" aria-label="Filteri opreme" class="sticky top-[60px] z-30 mt-10 border-y border-line bg-paper/95 backdrop-blur">
       <div class="mx-auto max-w-site px-5 py-3 md:px-8">
-        <div class="flex flex-wrap items-center gap-2">
+        <div class="grid items-center gap-3 xl:grid-cols-[minmax(0,1fr)_200px]">
+          <div class="flex min-w-0 items-center gap-2 overflow-x-auto pb-1" aria-label="Kategorije">
           <button
             type="button"
-            class="chip is-active rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
+            aria-pressed="true"
+            class="chip is-active min-h-11 rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
             data-filter="*">Sve</button
           >
           {
             categories.map((category) => (
               <button
                 type="button"
-                class="chip rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
+                aria-pressed="false"
+                class="chip min-h-11 rounded-card border border-line px-3.5 py-1.5 text-meta font-semibold transition-colors"
                 data-filter={category}
               >
                 {category}
@@ -68,7 +71,8 @@ const description =
             ))
           }
 
-          <label class="ml-auto w-full sm:w-64" for="shop-search">
+          </div>
+          <label class="w-full" for="shop-search">
             <span class="sr-only">Pretraga opreme</span>
             <input
               type="search"
@@ -87,8 +91,9 @@ const description =
     </section>
 
     <!-- Grid -->
-    <section class="section-y pt-8">
+    <section aria-label="Katalog proizvoda" class="py-8 md:pb-16">
       <div class="mx-auto max-w-site px-5 md:px-8">
+        <h2 class="sr-only">Katalog opreme i licenci</h2>
         <div id="shop-grid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {sorted.map((product) => <ProductCard product={product} />)}
         </div>
@@ -97,6 +102,11 @@ const description =
           Ništa ne odgovara pretrazi. Probajte drugi pojam ili nas pozovite — nabavljamo i ono
           što nije na sajtu.
         </p>
+        <nav id="shop-pagination" aria-label="Stranice kataloga" class="mt-8 hidden items-center justify-between gap-3 border-t border-line pt-6">
+          <button id="shop-prev" type="button" class="min-h-11 rounded-card border border-line px-4 py-2 text-meta font-semibold disabled:opacity-40">Prethodna</button>
+          <span id="shop-page" class="text-center text-meta text-steel"></span>
+          <button id="shop-next" type="button" class="min-h-11 rounded-card border border-line px-4 py-2 text-meta font-semibold disabled:opacity-40">Sledeća</button>
+        </nav>
       </div>
     </section>
 
@@ -151,6 +161,10 @@ const description =
     border-color: var(--color-ink);
     color: var(--color-surface);
   }
+  .chip {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
 </style>
 
 <script>
@@ -162,35 +176,65 @@ const description =
   const empty = document.getElementById('shop-empty');
 
   let category = '*';
+  let page = 1;
+  const pageSize = 12;
+  const pagination = document.getElementById('shop-pagination');
+  const previous = document.getElementById('shop-prev') as HTMLButtonElement | null;
+  const next = document.getElementById('shop-next') as HTMLButtonElement | null;
+  const pageLabel = document.getElementById('shop-page');
+  const normalize = (value: string) => value.toLowerCase().replace(/đ/g, 'dj').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
   function apply() {
-    const term = (search?.value ?? '').trim().toLowerCase();
+    const term = normalize((search?.value ?? '').trim());
     let shown = 0;
 
     for (const card of cards) {
       const matchesCategory = category === '*' || card.dataset.category === category;
-      const matchesTerm = !term || (card.dataset.search ?? '').includes(term);
-      const visible = matchesCategory && matchesTerm;
+      const matchesTerm = !term || normalize(card.dataset.search ?? '').includes(term);
+      const matches = matchesCategory && matchesTerm;
+      if (matches) shown += 1;
+      const visible = matches && shown > (page - 1) * pageSize && shown <= page * pageSize;
       // Inline style, not the `hidden` attribute or a `hidden` class: the cards
       // carry `flex`, and an author display utility beats both the UA
       // `[hidden] { display: none }` rule and an equal-specificity class.
       card.style.display = visible ? '' : 'none';
-      if (visible) shown += 1;
     }
 
-    if (count) count.textContent = `Prikazano ${shown} od ${cards.length} proizvoda`;
+    if (count) count.textContent = shown ? `Prikazano ${(page - 1) * pageSize + 1}–${Math.min(page * pageSize, shown)} od ${shown} proizvoda` : 'Nema proizvoda za ovu pretragu';
     empty?.classList.toggle('hidden', shown > 0);
+    pagination?.classList.toggle('hidden', shown <= pageSize);
+    pagination?.classList.toggle('flex', shown > pageSize);
+    if (previous) previous.disabled = page === 1;
+    if (next) next.disabled = page * pageSize >= shown;
+    if (pageLabel) pageLabel.textContent = `Strana ${page} / ${Math.max(1, Math.ceil(shown / pageSize))}`;
   }
 
   for (const chip of chips) {
     chip.addEventListener('click', () => {
       category = chip.dataset.filter ?? '*';
-      for (const other of chips) other.classList.toggle('is-active', other === chip);
+      page = 1;
+      for (const other of chips) {
+        other.classList.toggle('is-active', other === chip);
+        other.setAttribute('aria-pressed', String(other === chip));
+      }
       apply();
     });
   }
 
-  search?.addEventListener('input', apply);
+  search?.addEventListener('input', () => { page = 1; apply(); });
+  function changePage(delta: number) {
+    page += delta;
+    apply();
+    document.getElementById('shop-grid')?.scrollIntoView({ block: 'start' });
+  }
+  previous?.addEventListener('click', () => changePage(-1));
+  next?.addEventListener('click', () => changePage(1));
+  const filters = document.getElementById('shop-filters');
+  if (filters && 'ResizeObserver' in window) {
+    new ResizeObserver(() => {
+      document.documentElement.style.setProperty('--shop-offset', `${filters.offsetHeight + 84}px`);
+    }).observe(filters);
+  }
 
   // "Pošaljite upit" on a card: fill the hidden field, show what was picked,
   // then scroll to the form. Plain DOM, no modal.
@@ -209,7 +253,7 @@ const description =
     selected?.classList.remove('hidden');
     selected?.classList.add('flex');
 
-    document.getElementById('upit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById('upit')?.scrollIntoView({ block: 'start' });
     (document.getElementById('ime') as HTMLInputElement | null)?.focus({ preventScroll: true });
   });
 

@@ -1,6 +1,14 @@
 ---
 import '../styles/global.css';
-import { site, addressLine } from '../data/site';
+import '@fontsource/ibm-plex-sans/latin-400.css';
+import '@fontsource/ibm-plex-sans/latin-ext-400.css';
+import '@fontsource/ibm-plex-sans/latin-600.css';
+import '@fontsource/ibm-plex-sans/latin-ext-600.css';
+import '@fontsource/space-grotesk/latin-500.css';
+import '@fontsource/space-grotesk/latin-ext-500.css';
+import '@fontsource/space-grotesk/latin-700.css';
+import '@fontsource/space-grotesk/latin-ext-700.css';
+import { site, analyticsEnabled, cfBeaconToken } from '../data/site';
 
 interface Props {
   title?: string;
@@ -60,17 +68,12 @@ const jsonLd = {
     <meta property="og:image" content={new URL('/og.jpg', site.url).href} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Easy Computers — IT oprema i podrška za firme" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap"
-    />
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
   </head>
@@ -85,12 +88,10 @@ const jsonLd = {
 
     <slot />
 
-    <!--
-      Cloudflare Web Analytics — the only third-party script on the site.
-      {CF_BEACON_TOKEN} stays grep-able until Marko creates the CF property.
-      The tag is intentionally NOT emitted while the token is a placeholder,
-      so no failing request ships to production.
-    -->
+    {analyticsEnabled && (
+      <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: cfBeaconToken })}></script>
+    )}
 
     <script>
       // Scroll reveal (DESIGN-NOTES §7). Arms elements only when the browser

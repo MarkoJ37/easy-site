@@ -1,5 +1,27 @@
 # CLAUDE.md — easy.rs website build brief
 
+## Current implementation — 11 September 2026
+
+This update supersedes older conflicting requirements below. The user requested
+bug fixes, new generated visuals, and visual/aesthetic verification.
+
+- Astro is now 7.3.2 after dependency security fixes; Node >=22.12.0.
+- The hero uses a generated conceptual IT still life; `public/og.jpg` is 1200×630.
+  No generated imagery represents actual staff, premises, or catalog products.
+- The same Space Grotesk / IBM Plex Sans fonts are self-hosted with latin-ext coverage.
+- Catalog selection is 149 supplier products plus 3 manual software/license entries.
+  Pagination shows 12 matches at a time; categories reflect the actual catalog.
+- Availability and delivery are confirmed with the quote; no static claim of live stock.
+- `scripts/seed-products.py --input <xlsx>` refreshes selected prices while preserving
+  manual entries and editorial fields. Numeric Excel values and text formats are validated.
+- The generic Windows 10 October 2026 claim below is obsolete. The banner states
+  Windows 10 22H2 regular support ended 14 October 2025 and explains separate ESU coverage.
+- PHP endpoint and deploy workflow exist. Production credentials and actual dual-channel
+  delivery still require VPS setup; see README.md. DNS and mail configuration stay untouched.
+- Analytics and Viber are optional environment settings; privacy text reflects analytics state.
+
+The original brief follows as historical context.
+
 You are building the public website for **Easy Computers** (`easy.rs`) — a Belgrade family business (25+ years) selling IT equipment to companies, now expanding into SME IT support services. The site's job: make a small-business owner trust us enough to (a) request a **besplatan IT pregled** or (b) send a product **upit**. It is a lead-capture and credibility site, **not** an e-commerce store.
 
 ## 0. Hard rules

@@ -53,6 +53,10 @@
   padding-block: clamp(3.5rem, 8vw, 6rem);
 }
 
+#upit, #shop-grid {
+  scroll-margin-top: calc(var(--shop-offset, 180px) - 76px);
+}
+
 /* --------------------------------------------------------------------------
    Base
    -------------------------------------------------------------------------- */
@@ -183,6 +187,13 @@ p {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 
   .dot--pulse::after,
