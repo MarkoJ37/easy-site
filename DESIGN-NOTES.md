@@ -1,6 +1,27 @@
 # DESIGN-NOTES.md — easy.rs
 
+## Decision — 23 October 2026, later the same day (Marko): hero image restored
+
+The single-column hero below is **reversed**. Current state:
+
+- **Hero = two columns from `lg`:** copy left, the conceptual IT still life right
+  (laptop, monitor, switch, NAS on white). Below `lg` the image stacks under the copy on
+  the same left edge — never centred under left-aligned text.
+- **The image's screens are flat and off:** a single neutral graphite, no decorative
+  wallpaper. The glossy blue-wave wallpaper was the main AI-stock tell; it was painted out
+  of the existing render (no regeneration was available). Bezels, devices and light are
+  untouched. This is a deliberate exception to §6.1's "no hero art", made by Marko.
+- **Caption bar:** status dot + `easy.rs` only. The invented tagline stays removed
+  (CLAUDE.md §0).
+- **Unchanged from the block below:** the four facts live only in the TrustBar (§6b.3),
+  motion is exactly §7, Space Grotesk scope, the button scale, and `og.jpg` stays the logo
+  card.
+- **Terminology:** the lead magnet is **"konsultacija"** everywhere (see CLAUDE.md §0).
+
 ## Decision — 23 October 2026 (Marko): hero contradiction resolved
+
+> **Hero part SUPERSEDED** by the block above (single column → two columns with the
+> flat-screen image). Every other point here still applies.
 
 This file had contradicted itself on the hero. Resolved in favour of the original
 intent (§5/§6), with one change:

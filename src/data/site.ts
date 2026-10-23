@@ -35,7 +35,7 @@ export const site = {
   meta: {
     title: 'Easy Computers — IT oprema i podrška za firme | Beograd',
     description:
-      'Održavanje računara, nabavka opreme, Microsoft 365 i prelazak na Windows 11 za mala preduzeća. Besplatan IT pregled. Beograd i cela Srbija.',
+      'Održavanje računara, nabavka opreme, Microsoft 365 i prelazak na Windows 11 za mala preduzeća. Besplatna IT konsultacija. Beograd i cela Srbija.',
   },
 } as const;
 

@@ -1,23 +1,37 @@
 ﻿---
 /**
- * Single column, copy only — DESIGN-NOTES §6.1 bans hero art, and the four
- * trust facts live only in the TrustBar directly below (§6b.3). Type and
- * whitespace hold the space; the TrustBar closes the fold.
+ * Two columns from lg, 7/5 (DESIGN-NOTES §5): copy left, image right. Below lg the image stacks under
+ * the copy on the same left edge (never centred under left-aligned text).
+ * Conceptual artwork, not a photograph of the company or a particular product;
+ * the screens are flat and off — no decorative wallpaper (DESIGN-NOTES, 23 Oct).
+ * The four trust facts live in the TrustBar below (§6b.3).
  */
 ---
 <section>
-  <div class="mx-auto max-w-site px-5 pt-14 pb-14 md:px-8 md:pt-24 md:pb-20 lg:pt-28 lg:pb-24">
-    <p class="flex items-center gap-2 text-eyebrow font-semibold uppercase text-steel">
-      <span class="dot dot--pulse"></span>IT partner za mala preduzeća
-    </p>
-    <h1 class="mt-6 max-w-[15em] text-h1 font-bold">Računari, mreža i licence&nbsp;— da jednostavno rade.</h1>
-    <p class="mt-6 max-w-[54ch] text-lead text-steel">
-      IT oprema i podrška za mala preduzeća. Jedan partner, predvidiv mesečni trošak,
-      bez komplikacija — u Beogradu i remote, širom Srbije.
-    </p>
-    <div class="mt-10 flex flex-wrap gap-3">
-      <a href="#kontakt" class="btn btn-primary">Zakažite besplatan pregled</a>
-      <a href="/shop" class="btn btn-secondary">Pogledajte opremu</a>
+  <div class="mx-auto grid max-w-site items-center gap-10 px-5 py-12 md:px-8 md:py-16 lg:grid-cols-[7fr_5fr] lg:gap-12 lg:py-20">
+    <div>
+      <p class="flex items-center gap-2 text-eyebrow font-semibold uppercase text-steel">
+        <span class="dot dot--pulse"></span>IT partner za mala preduzeća
+      </p>
+      <h1 class="mt-6 text-h1 font-bold">Računari, mreža i licence&nbsp;— da jednostavno rade.</h1>
+      <p class="mt-6 max-w-[48ch] text-lead text-steel">
+        IT oprema i podrška za mala preduzeća. Jedan partner, predvidiv mesečni trošak,
+        bez komplikacija — u Beogradu i remote, širom Srbije.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-3">
+        <a href="#kontakt" class="btn btn-primary">Zakažite besplatnu konsultaciju</a>
+        <a href="/shop" class="btn btn-secondary">Pogledajte opremu</a>
+      </div>
+    </div>
+    <div class="relative w-full max-w-[540px] overflow-hidden rounded-plan border border-line bg-paper lg:justify-self-end">
+      <img src="/images/it-system.webp" srcset="/images/it-system-640.webp 640w, /images/it-system.webp 1100w"
+        sizes="(min-width: 1024px) 420px, (min-width: 600px) 540px, calc(100vw - 40px)"
+        width="1100" height="1100" fetchpriority="high" decoding="async"
+        alt="Ilustracija povezanog laptopa, monitora, mrežne opreme i uređaja za backup."
+        class="block aspect-square w-full object-cover" />
+      <div class="absolute inset-x-0 bottom-0 flex items-center gap-2 border-t border-line bg-surface/95 px-5 py-3 text-meta text-steel">
+        <span class="dot"></span>easy.rs
+      </div>
     </div>
   </div>
 </section>

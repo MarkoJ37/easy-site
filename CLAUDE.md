@@ -6,9 +6,9 @@ This update supersedes older conflicting requirements below. The user requested
 bug fixes, new generated visuals, and visual/aesthetic verification.
 
 - Astro is now 7.3.2 after dependency security fixes; Node >=22.12.0.
-- (23 Oct 2026) The generated hero image is removed: the hero is single-column copy,
-  the four facts live in the TrustBar, and `public/og.jpg` (1200×630) is the real logo
-  on navy (`scripts/build-og.mjs`). No generated imagery anywhere. See DESIGN-NOTES.
+- (23 Oct 2026) The hero is two columns: copy left, the conceptual IT still life right,
+  with its screens painted flat (no wallpaper). The four facts live in the TrustBar, and
+  `public/og.jpg` (1200×630) is the real logo on navy (`scripts/build-og.mjs`). See DESIGN-NOTES.
 - The same Space Grotesk / IBM Plex Sans fonts are self-hosted with latin-ext coverage.
 - Catalog selection is 149 supplier products plus 3 manual software/license entries.
   Pagination shows 12 matches at a time; categories reflect the actual catalog.
@@ -23,7 +23,7 @@ bug fixes, new generated visuals, and visual/aesthetic verification.
 
 The original brief follows as historical context.
 
-You are building the public website for **Easy Computers** (`easy.rs`) — a Belgrade family business (25+ years) selling IT equipment to companies, now expanding into SME IT support services. The site's job: make a small-business owner trust us enough to (a) request a **besplatan IT pregled** or (b) send a product **upit**. It is a lead-capture and credibility site, **not** an e-commerce store.
+You are building the public website for **Easy Computers** (`easy.rs`) — a Belgrade family business (25+ years) selling IT equipment to companies, now expanding into SME IT support services. The site's job: make a small-business owner trust us enough to (a) request a **besplatna IT konsultacija** or (b) send a product **upit**. It is a lead-capture and credibility site, **not** an e-commerce store.
 
 ## 0. Hard rules
 
@@ -33,7 +33,7 @@ You are building the public website for **Easy Computers** (`easy.rs`) — a Bel
 - Every price in `/shop` renders with "sa PDV-om" context and the global disclaimer (§6). Service prices on `/` are "bez PDV-a" and marked as such.
 - Do not invent services, claims, or numbers not present in this brief. `{PLACEHOLDER}` tokens must remain grep-able until Marko replaces them.
 - Ask before deviating from this spec. Do not add sections.
-- **Terminology (changed 18 Aug 2026):** the lead magnet is a **"IT pregled"**, never "snimak". Marko rejected "snimak IT stanja" as a literal translation from English. Derived forms in use: nav CTA `Besplatan IT pregled` · hero/paketi CTA `Zakažite besplatan pregled` / `Zakažite pregled` · Proces step 1 `Pregled stanja` · FAQ `Koliko košta IT pregled?` · kontakt heading `Zakažite besplatan pregled IT sistema`. Note `Zakažite proveru` stays the Win10 banner's CTA — it is a different, narrower offer (Win11 compatibility only).
+- **Terminology (changed 23 Oct 2026):** the lead magnet is a **"konsultacija"** — the chosen term; never "pregled" (used 18 Aug–23 Oct) or "snimak" (rejected earlier as a literal translation from English). Derived forms in use: nav CTA `Besplatna IT konsultacija` · hero/paketi CTA `Zakažite besplatnu konsultaciju` / `Zakažite konsultaciju` · Proces step 1 `Konsultacija` · FAQ `Koliko košta konsultacija?` (answer: `…ali je besplatna…`) · kontakt heading `Zakažite besplatnu IT konsultaciju` · meta `Besplatna IT konsultacija.` Note `Zakažite proveru` stays the Win10 banner's CTA — it is a different, narrower offer (Win11 compatibility only).
 
 ## 1. Stack & repo
 
@@ -89,8 +89,8 @@ Starting tokens (Marko may override after brand sprint — read from `global.css
 
 ## 3. Pages & sections (index, in order)
 
-1. **Nav:** logo · Usluge · Cene · Oprema (→ /shop) · Kontakt · CTA button "Besplatan IT pregled". Sticky, slim.
-2. **Hero:** eyebrow with pulse dot "● IT partner za mala preduzeća" (Marko dropped the "— Beograd" suffix 18 Aug; the city still carries in the hero sub, TrustBar and JSON-LD); H1 + sub from §5; primary CTA "Zakažite besplatan pregled" (scroll to #kontakt), secondary "Pogledajte opremu" (/shop).
+1. **Nav:** logo · Usluge · Cene · Oprema (→ /shop) · Kontakt · CTA button "Besplatna IT konsultacija". Sticky, slim.
+2. **Hero:** eyebrow with pulse dot "● IT partner za mala preduzeća" (Marko dropped the "— Beograd" suffix 18 Aug; the city still carries in the hero sub, TrustBar and JSON-LD); H1 + sub from §5; primary CTA "Zakažite besplatnu konsultaciju" (scroll to #kontakt), secondary "Pogledajte opremu" (/shop).
 3. **TrustBar:** 4 short facts: "Od 1999. godine" · "Oprema i podrška na jednom mestu" · "Odziv istog radnog dana" · "Beograd + remote, cela Srbija". (No unverifiable counters — 27 years is the number that matters.)
 4. **Usluge:** 6 cards (copy §5.3). Each: icon (simple line style, consistent set — lucide), title, 2 lines, no "learn more" links.
 5. **Paketi (#cene):** 3 pricing cards START/STANDARD/BIZNIS from §5.4 + ad-hoc line below + note "Sve cene su bez PDV-a. Ugovor se raskida uz otkazni rok od 30 dana — bez vezivanja." STANDARD visually featured.
@@ -131,7 +131,7 @@ Respond 200 and redirect to `/hvala` if **at least one** channel succeeded; `err
 
 **5.5 Win10Banner:** `Windows 10 od 13. oktobra 2026. ostaje bez bezbednosnih ispravki.` + `Besplatno proveravamo koje vaše mašine mogu na Windows 11 — i šta je jeftinije zameniti nego produžavati. Bez obaveze.` CTA: `Zakažite proveru`.
 
-**5.6 Proces:** 1 `Pregled stanja` — `Dolazimo (ili se povezujemo remote), prolazimo kroz opremu, licence, backup i mrežu. Traje do sat vremena.` 2 `Predlog i cena` — `U roku od 48h dobijate jednu stranu: šta je dobro, šta je rizik i šta predlažemo — sa cenom.` 3 `Preuzimamo brigu` — `Potpisujemo ugovor bez vezivanja i od prvog dana imate koga da pozovete.`
+**5.6 Proces:** 1 `Konsultacija` — `Dolazimo (ili se povezujemo remote), prolazimo kroz opremu, licence, backup i mrežu. Traje do sat vremena.` 2 `Predlog i cena` — `U roku od 48h dobijate jednu stranu: šta je dobro, šta je rizik i šta predlažemo — sa cenom.` 3 `Preuzimamo brigu` — `Potpisujemo ugovor bez vezivanja i od prvog dana imate koga da pozovete.`
 
 **5.7 O nama:** `## O nama`
 
@@ -156,9 +156,9 @@ Respond 200 and redirect to `/hvala` if **at least one** channel succeeded; `err
 - `Šta ako imamo "svog čoveka" za IT?` — `Odlično — možemo da pokrivamo ono što on ne stiže: hitne intervencije, nabavku, licence ili samo backup.`
 - `Koliko brzo reagujete?` — `Remote najčešće u roku od sat-dva. Na teren u Beogradu izlazimo isti ili sledeći radni dan, po paketu i do 2h.`
 - `Radite li van Beograda?` — `Da — remote pokrivamo celu Srbiju, a teren van Beograda uz putne troškove.`
-- `Koliko košta IT pregled?` — `Ništa. To je sat vremena našeg rada i jedna strana nalaza — vredi 12.000 RSD, ali je besplatan jer je najbolji način da se upoznamo.`
+- `Koliko košta konsultacija?` — `Ništa. To je sat vremena našeg rada i jedna strana nalaza — vredi 12.000 RSD, ali je besplatna jer je najbolji način da se upoznamo.`
 
-**5.9 Meta:** title `Easy Computers — IT oprema i podrška za firme | Beograd`; description `Održavanje računara, nabavka opreme, Microsoft 365 i prelazak na Windows 11 za mala preduzeća. Besplatan IT pregled. Beograd i cela Srbija.`
+**5.9 Meta:** title `Easy Computers — IT oprema i podrška za firme | Beograd`; description `Održavanje računara, nabavka opreme, Microsoft 365 i prelazak na Windows 11 za mala preduzeća. Besplatna IT konsultacija. Beograd i cela Srbija.`
 
 ## 6. /shop data & rules
 

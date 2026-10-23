@@ -57,6 +57,6 @@ transporta i ne šalju poruke. PHP provera je izvršena na lokalnom PHP 8.5.10.
 Viber i Cloudflare analitika ostaju isključeni dok se ne unesu odgovarajuće
 opcione javne postavke. DNS i mail servis nisu menjani.
 
-Snimci: `artifacts/visual/`. Generisani vizuali su uklonjeni 23. oktobra 2026 (vidi
+Snimci: `artifacts/visual/`. Hero ilustracija ima ravne ekrane od 23. oktobra 2026 (vidi
 DESIGN-NOTES); `public/og.jpg` pravi `scripts/build-og.mjs`. Detalji rada i puštanja
 sajta: `README.md`.
