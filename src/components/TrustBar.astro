@@ -12,11 +12,13 @@ const facts = [
 ---
 
 <section class="bg-ink text-surface" aria-label="Zašto Easy Computers">
-  <ul class="mx-auto grid max-w-site px-5 md:px-8 sm:grid-cols-2 lg:grid-cols-4">
+  <!-- At lg the facts share the row by content width (flex-auto), so each stays on
+       one line instead of the longest one wrapping inside an equal quarter. -->
+  <ul class="mx-auto grid max-w-site px-5 md:px-8 sm:grid-cols-2 lg:flex">
     {
       facts.map((fact) => (
         <li
-          class="flex items-center gap-3 border-t border-white/10 py-5 lg:border-t-0 lg:border-l lg:py-6 lg:pl-6 lg:first:border-l-0 lg:first:pl-0"
+          class="flex items-center gap-3 border-t border-white/10 py-5 lg:flex-auto lg:whitespace-nowrap lg:border-t-0 lg:border-l lg:py-6 lg:pl-6 lg:first:border-l-0 lg:first:pl-0"
         >
           <span class="dot" />
           <span class="text-meta font-semibold">{fact}</span>

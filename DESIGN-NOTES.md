@@ -1,6 +1,30 @@
 # DESIGN-NOTES.md — easy.rs
 
+## Decision — 23 October 2026 (Marko): hero contradiction resolved
+
+This file had contradicted itself on the hero. Resolved in favour of the original
+intent (§5/§6), with one change:
+
+- **Hero = single column.** Eyebrow with pulse dot / H1 / sub / two CTAs, left-aligned.
+  No right-column object of any kind — no image, no diagram, no facts panel.
+- **The four facts live only in the TrustBar** directly under the hero (§6b.3 kept).
+- **No hero art, ever** (§6.1 stands). The generated still life and its web/OG assets
+  are deleted. `public/og.jpg` is now the real logo, one-colour white, on `--ink`,
+  built by `node scripts/build-og.mjs` — no re-typeset wordmark, no extra copy.
+- **Motion is exactly §7:** scroll reveal, hero dot pulse, nav shadow. Hover changes
+  colour only — no lifts, no shadows on cards. The FAQ chevron rotation (§5) stays.
+- **Space Grotesk in its four places only** (§3): H1, H2, prices, the Win10 heading — plus
+  the two spots §5 names explicitly (the O nama "1999." figure and the shop card brand field).
+- **Buttons:** one scale in `global.css` (`.btn`, `.btn-sm`), Plex 600.
+
+Superseded and kept below only as history: the 11 Sept hero-image paragraph, §6b.2, and
+the §6b motion-budget addition. The §5 wireframe's right-column hero panel is replaced
+by the single column above.
+
 ## Revision — 11 September 2026
+
+> **SUPERSEDED (23 Oct 2026)** as far as the hero and social image go — see the decision
+> above. The catalog, font and verification notes in this block still apply.
 
 The user requested replacement visuals and a full visual review. The hero now pairs
 the original headline with a custom, cool-neutral 3D IT still life in the existing navy,
@@ -180,12 +204,12 @@ One risk this plan does **not** solve: O nama and the whole shop launch without 
 The first build read as **basic** — restraint tipped over into unfinished. Three changes:
 
 1. **Section eyebrows removed.** The `● Usluge` / `● Cene` / `● Kontakt` labels above every H2 were repeating the heading in smaller type. Only the hero eyebrow survives, and it drops the `— Beograd` suffix. Sections now open on the H2.
-2. **The hero gets a real graphic:** an abstract office-network diagram — router, switch, four endpoints — drawn in navy hairlines with `--signal` dots marking live nodes and an animated dashed stroke running along the spine as traffic. This is the "sve radi" idea made visible, and it satisfies CLAUDE.md §0's *typographic/graphic treatment where no photo exists* without a single stock image. A faded dot-grid sits behind the hero for texture.
+2. ~~**The hero gets a real graphic:**~~ **SUPERSEDED (23 Oct 2026)** — hero is single column, no graphic; see the decision at the top. Original text, for history: **The hero gets a real graphic:** an abstract office-network diagram — router, switch, four endpoints — drawn in navy hairlines with `--signal` dots marking live nodes and an animated dashed stroke running along the spine as traffic. This is the "sve radi" idea made visible, and it satisfies CLAUDE.md §0's *typographic/graphic treatment where no photo exists* without a single stock image. A faded dot-grid sits behind the hero for texture.
 3. **The trust facts stopped being duplicated.** They were in both the hero's navy panel and the white TrustBar band, which stacked on mobile. TrustBar is now their only home at every breakpoint, and it carries the **navy** treatment Marko preferred — full-bleed `--ink` with green dots and hairline dividers, not the white band.
 
    This puts navy at three points in the scroll (TrustBar, Win10, footer), which gives the page its rhythm: paper → navy → white → paper → navy → white → paper → white → paper → navy.
 
-Added to the motion budget (§7): the traffic dashes, the node blink, and a hover lift on the pricing cards and CTAs. All three are disabled under `prefers-reduced-motion`.
+~~Added to the motion budget (§7): the traffic dashes, the node blink, and a hover lift on the pricing cards and CTAs.~~ **SUPERSEDED (23 Oct 2026)** — §7's three items are the whole budget.
 
 The §6 bans still hold: no gradient hero, no blue section fills, no glowing badges, no red on the Win10 strip.
 

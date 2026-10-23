@@ -31,7 +31,7 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
 ---
 
 <article
-  class="group flex flex-col rounded-plan border border-line bg-surface p-4 transition-all duration-200 hover:-translate-y-1 hover:border-accent hover:shadow-md"
+  class="group flex min-w-0 flex-col rounded-plan border border-line bg-surface p-4 transition-colors hover:border-accent"
   data-product
   data-category={product.category}
   data-search={haystack}
@@ -49,7 +49,7 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
           class="max-h-24 w-auto object-contain"
         />
       ) : (
-        <span class="font-display text-lead font-medium tracking-wide text-ink">
+        <span class="min-w-0 break-words font-display text-lead font-medium tracking-wide text-ink">
           {product.brand}
         </span>
       )
@@ -66,7 +66,7 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
     )
   }
 
-  <h3 class={product.featured ? 'mt-2' : 'mt-4'}>{product.name}</h3>
+  <h3 class:list={[product.featured ? 'mt-2' : 'mt-4', 'break-words']}>{product.name}</h3>
 
   <p class="mt-2 text-meta text-steel">{product.short_desc}</p>
 
@@ -99,7 +99,7 @@ const haystack = [product.name, product.brand, product.short_desc, ...product.sp
 
     <button
       type="button"
-      class="mt-4 w-full rounded-card border border-line px-4 py-2.5 font-semibold transition-colors hover:border-accent hover:bg-accent hover:text-surface"
+      class="btn btn-sm btn-secondary mt-4 w-full"
       data-upit={product.name}
     >
       Pošaljite upit

@@ -91,11 +91,99 @@ p {
   text-wrap: pretty;
 }
 
-/* Visible keyboard focus everywhere — quality floor, CLAUDE.md §2 */
+/* Visible keyboard focus everywhere — quality floor, CLAUDE.md §2.
+   No border-radius here: the outline already follows the element's own corners,
+   and overriding it made 6px buttons snap to 2px on focus. */
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 3px;
-  border-radius: 2px;
+}
+
+/* Form fields keep the ring tight to the border instead of floating 3px out. */
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-offset: 1px;
+}
+
+/* Tailwind's transition-colors includes outline-color, so the focus ring faded
+   in from currentColor — white on filled buttons, i.e. invisible for 150ms.
+   Unlayered on purpose so it beats the utility. */
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+}
+
+/* --------------------------------------------------------------------------
+   Buttons — one scale, two sizes. In the components layer so utilities
+   (hidden, md:block, w-full) still win.
+   -------------------------------------------------------------------------- */
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius-card);
+    font-size: var(--text-body);
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+    transition-property: color, background-color, border-color;
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+  }
+
+  .btn-sm {
+    min-height: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-size: var(--text-meta);
+  }
+
+  .btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-surface);
+  }
+  .btn-primary:hover {
+    background-color: var(--color-ink);
+  }
+
+  .btn-secondary {
+    border-color: var(--color-line);
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+  }
+  .btn-secondary:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  /* On navy: the STANDARD card. */
+  .btn-inverse {
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+  }
+  .btn-inverse:hover {
+    background-color: var(--color-line);
+  }
+
+  /* On navy: the Win10 strip — white outline that fills on hover. */
+  .btn-outline-inverse {
+    border-color: rgb(255 255 255 / 0.4);
+    color: var(--color-surface);
+  }
+  .btn-outline-inverse:hover {
+    border-color: var(--color-surface);
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+  }
+}
+
+/* On navy fields the accent ring sits on ink at under 3:1 — use white there. */
+.bg-ink :focus-visible {
+  outline-color: var(--color-surface);
 }
 
 /* --------------------------------------------------------------------------
@@ -133,40 +221,6 @@ p {
 }
 
 /* --------------------------------------------------------------------------
-   Texture + motion for the hero network graphic
-   -------------------------------------------------------------------------- */
-
-/* Fine dot grid, faded out toward the edges so it never draws a hard border. */
-.bg-dotgrid {
-  background-image: radial-gradient(circle at 1px 1px, var(--color-line) 1px, transparent 0);
-  background-size: 22px 22px;
-  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
-  mask-image: radial-gradient(ellipse 80% 70% at 50% 40%, #000 30%, transparent 100%);
-}
-
-/* Traffic moving along the network lines — the "sve radi" idea, animated. */
-.flow {
-  stroke-dasharray: 3 9;
-  animation: flow 2.8s linear infinite;
-}
-
-@keyframes flow {
-  to {
-    stroke-dashoffset: -24;
-  }
-}
-
-/* Node "online" blink, offset per node so they don't pulse in lockstep. */
-.node-live {
-  animation: node-live 2.8s ease-in-out infinite;
-}
-
-@keyframes node-live {
-  0%, 100% { opacity: 0.35; }
-  50%      { opacity: 1; }
-}
-
-/* --------------------------------------------------------------------------
    Scroll reveal — content is visible at rest; JS only adds the entrance.
    Nothing is hidden unless JS has explicitly armed it, so a script failure
    can never blank the page.
@@ -196,14 +250,8 @@ p {
     animation-iteration-count: 1 !important;
   }
 
-  .dot--pulse::after,
-  .flow,
-  .node-live {
+  .dot--pulse::after {
     animation: none;
-  }
-
-  .node-live {
-    opacity: 1;
   }
 
   [data-reveal].is-armed,

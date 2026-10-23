@@ -60,14 +60,12 @@ const plans = [
         plans.map((p) => (
           <div
             class:list={[
-              'flex h-full flex-col rounded-plan border p-6 transition-all duration-200',
-              p.featured
-                ? 'border-ink bg-ink text-surface shadow-lg'
-                : 'border-line bg-surface hover:-translate-y-1 hover:border-accent hover:shadow-md',
+              'flex h-full flex-col rounded-plan border p-6',
+              p.featured ? 'border-ink bg-ink text-surface' : 'border-line bg-surface',
             ]}
           >
             <div class="flex items-center justify-between gap-3">
-              <h3 class="font-display text-lead font-medium tracking-wide">{p.name}</h3>
+              <h3 class="text-body font-semibold tracking-[0.06em]">{p.name}</h3>
               {p.featured && (
                 <span class="flex items-center gap-2 text-meta whitespace-nowrap">
                   <span class="dot" />
@@ -88,7 +86,7 @@ const plans = [
               {p.bullets.map((b) => (
                 <li class="flex gap-3 text-meta">
                   <span class="dot mt-2" />
-                  <span>{b}</span>
+                  <span class="min-w-0 wrap-anywhere">{b}</span>
                 </li>
               ))}
             </ul>
@@ -97,12 +95,7 @@ const plans = [
             <div class="mt-auto pt-7">
               <a
                 href="#kontakt"
-                class:list={[
-                  'block rounded-card px-5 py-3 text-center font-semibold transition-colors',
-                  p.featured
-                    ? 'bg-surface text-ink hover:bg-surface/90'
-                    : 'border border-line hover:border-accent hover:text-accent',
-                ]}
+                class:list={['btn w-full', p.featured ? 'btn-inverse' : 'btn-secondary']}
               >
                 Zakažite pregled
               </a>

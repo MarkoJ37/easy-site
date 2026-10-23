@@ -68,7 +68,8 @@ DNS, MX/SPF i mail servis nisu deo ovog deploya.
 
 ## Vizuali i provere
 
-Nova konceptualna ilustracija je `public/images/it-system.webp` (uz manju 640px verziju).
-Slika za deljenje je `public/og.jpg`, 1200 × 630. Izvornici i promptovi su u `artwork/`.
+Hero je samo tekst — bez ilustracije (DESIGN-NOTES, odluka od 23. oktobra 2026).
+Slika za deljenje je `public/og.jpg`, 1200 × 630: logo na teget podlozi, pravi se sa
+`node scripts/build-og.mjs`.
 Ne predstavljaju fotografije firme ili konkretne artikle iz kataloga.
 Snimci browser provere čuvaju se u `artifacts/visual/`.

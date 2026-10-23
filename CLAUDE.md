@@ -6,8 +6,9 @@ This update supersedes older conflicting requirements below. The user requested
 bug fixes, new generated visuals, and visual/aesthetic verification.
 
 - Astro is now 7.3.2 after dependency security fixes; Node >=22.12.0.
-- The hero uses a generated conceptual IT still life; `public/og.jpg` is 1200×630.
-  No generated imagery represents actual staff, premises, or catalog products.
+- (23 Oct 2026) The generated hero image is removed: the hero is single-column copy,
+  the four facts live in the TrustBar, and `public/og.jpg` (1200×630) is the real logo
+  on navy (`scripts/build-og.mjs`). No generated imagery anywhere. See DESIGN-NOTES.
 - The same Space Grotesk / IBM Plex Sans fonts are self-hosted with latin-ext coverage.
 - Catalog selection is 149 supplier products plus 3 manual software/license entries.
   Pagination shows 12 matches at a time; categories reflect the actual catalog.

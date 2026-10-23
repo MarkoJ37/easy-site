@@ -23,16 +23,18 @@ const steps = [
   <div class="mx-auto max-w-site px-5 md:px-8" data-reveal>
     <h2 class="text-h2 font-medium">Kako počinjemo</h2>
 
-    <!-- The numbers are nodes on a run of the status rail — DESIGN-NOTES §4 -->
-    <ol class="mt-10 grid gap-8 md:grid-cols-3">
+    <!-- The numbers are nodes on one continuous run of the status rail — DESIGN-NOTES §4.
+         The rail is the list's own border (vertical below 768px, horizontal above), so
+         the grid gap can't split it; each node is centred on that 1px line. -->
+    <ol class="mt-10 grid gap-8 border-l border-line pl-7 md:grid-cols-3 md:border-l-0 md:border-t md:pl-0 md:pt-8">
       {
         steps.map((s) => (
-          <li class="relative border-t border-line pt-6 md:pt-8">
+          <li class="relative">
             <span
-              class="absolute -top-[7px] left-0 block size-3.5 rounded-full border-2 border-signal bg-paper"
+              class="absolute top-[3px] -left-[35.5px] block size-3.5 rounded-full border-2 border-signal bg-surface md:-top-[39.5px] md:left-0"
               aria-hidden="true"
             />
-            <span class="font-display text-meta font-medium text-steel">Korak {s.n}</span>
+            <span class="text-meta font-semibold text-steel">Korak {s.n}</span>
             <h3 class="mt-1">{s.title}</h3>
             <p class="mt-2 text-meta text-steel">{s.desc}</p>
           </li>

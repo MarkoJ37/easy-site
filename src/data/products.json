@@ -54,7 +54,7 @@
     "price_note": null,
     "image": null,
     "availability": "Dostupnost i rok isporuke potvrđujemo uz ponudu",
-    "featured": true,
+    "featured": false,
     "supplier_sku": "NOT07569",
     "auto_price": true
   },
@@ -74,7 +74,7 @@
     "price_note": null,
     "image": null,
     "availability": "Dostupnost i rok isporuke potvrđujemo uz ponudu",
-    "featured": true,
+    "featured": false,
     "supplier_sku": "NOT24555",
     "auto_price": true
   },
@@ -93,7 +93,7 @@
     "price_note": null,
     "image": null,
     "availability": "Dostupnost i rok isporuke potvrđujemo uz ponudu",
-    "featured": true,
+    "featured": false,
     "supplier_sku": "CAS02522",
     "auto_price": true
   },
